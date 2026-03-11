@@ -145,14 +145,11 @@ foreach ($dir in $topDirs) {
                 $encodedSegments = $pathSegments | ForEach-Object { [System.Uri]::EscapeDataString($_) }
                 $encodedRelPath = $encodedSegments -join '/'
                 
-                # The raw endpoint natively streams the file to the browser
-                $viewUrl = "https://github.com/Sephrit/RockwellDocs/raw/main/$encodedRelPath"
+                # For public repositories, GitHub's native blob viewer successfully renders LFS PDFs with search support
+                $viewUrl = "https://github.com/Sephrit/RockwellDocuments/blob/main/$encodedRelPath"
                 
                 # The raw endpoint natively streams the file to the browser
                 $rawUrl = "https://github.com/Sephrit/RockwellDocuments/raw/main/$encodedRelPath"
-                
-                # Funnel the raw LFS file into Mozilla's PDF.js web viewer
-                $viewUrl = "https://mozilla.github.io/pdf.js/web/viewer.html?file=$rawUrl"
                 
                 # Appending ?download=true to the raw endpoint forces a "Save As" dialogue
                 $downloadUrl = "https://github.com/Sephrit/RockwellDocuments/raw/main/$encodedRelPath`?download=true"

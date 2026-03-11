@@ -34,7 +34,7 @@ $categoryNames = @{
 }
 
 # The base URL for the repository
-$repoBaseUrl = "https://github.com/Sephrit/RockwellDocs/blob/main"
+$repoBaseUrl = "https://github.com/Sephrit/RockwellDocuments/blob/main"
 
 $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm"
 $allPdfs = Get-ChildItem -Path $root -Recurse -Filter "*.pdf" -File
@@ -148,8 +148,14 @@ foreach ($dir in $topDirs) {
                 # The raw endpoint natively streams the file to the browser
                 $viewUrl = "https://github.com/Sephrit/RockwellDocs/raw/main/$encodedRelPath"
                 
+                # The raw endpoint natively streams the file to the browser
+                $rawUrl = "https://github.com/Sephrit/RockwellDocuments/raw/main/$encodedRelPath"
+                
+                # Funnel the raw LFS file into Mozilla's PDF.js web viewer
+                $viewUrl = "https://mozilla.github.io/pdf.js/web/viewer.html?file=$rawUrl"
+                
                 # Appending ?download=true to the raw endpoint forces a "Save As" dialogue
-                $downloadUrl = "https://github.com/Sephrit/RockwellDocs/raw/main/$encodedRelPath`?download=true"
+                $downloadUrl = "https://github.com/Sephrit/RockwellDocuments/raw/main/$encodedRelPath`?download=true"
                 
                 [void]$lines.Add("| ``$pubNum`` | $desc | $fsize | [View]($viewUrl) <br> [Download]($downloadUrl) |")
             }

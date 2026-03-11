@@ -1,8 +1,9 @@
 ﻿# Rockwell Automation Documentation Database
 
-> **84 documents** | **998.7 MB** total | Last updated: **2026-03-10 21:08**
+> **84 documents** | **998.7 MB** total | Last updated: **2026-03-11 13:40**
 >
-> Run `.\Update-Index.ps1` to refresh this index after adding new documents.
+> This index is automatically updated via GitHub Actions.
+> You can also run `.\Update-Index.ps1` locally to refresh after adding new documents.
 
 ---
 
@@ -436,5 +437,5 @@
 
 - All documents sourced from [Rockwell Automation Literature Library](https://literature.rockwellautomation.com)
 - Publication numbers follow Rockwell standard format: `{Bulletin}-{Type}{Sequence}`
-- To add new documents, place PDFs in the appropriate folder and re-run `.\Update-Index.ps1`
+- To add new documents, place PDFs in the appropriate folder and push to GitHub (Action will run automatically)
 - File naming convention: `{PubNumber} - {Product} - {DocType}.pdf`

@@ -3,8 +3,8 @@
 # Run: .\Update-Index.ps1
 # ============================================================
 
-$root = "d:\Rockwell"
-$indexPath = Join-Path $root "_INDEX.md"
+$root = $PSScriptRoot
+$indexPath = Join-Path $root "README.md"
 
 $categoryNames = @{
     "01_PLCs"                 = "PLCs and Controllers"
@@ -44,7 +44,8 @@ $lines = [System.Collections.ArrayList]::new()
 [void]$lines.Add("")
 [void]$lines.Add("> **$totalCount documents** | **$totalSizeMB MB** total | Last updated: **$timestamp**")
 [void]$lines.Add(">")
-[void]$lines.Add("> Run ``.\Update-Index.ps1`` to refresh this index after adding new documents.")
+[void]$lines.Add("> This index is automatically updated via GitHub Actions.")
+[void]$lines.Add("> You can also run ``.\Update-Index.ps1`` locally to refresh after adding new documents.")
 [void]$lines.Add("")
 [void]$lines.Add("---")
 [void]$lines.Add("")
@@ -120,7 +121,7 @@ foreach ($dir in $topDirs) {
 [void]$lines.Add("")
 [void]$lines.Add("- All documents sourced from [Rockwell Automation Literature Library](https://literature.rockwellautomation.com)")
 [void]$lines.Add("- Publication numbers follow Rockwell standard format: ``{Bulletin}-{Type}{Sequence}``")
-[void]$lines.Add("- To add new documents, place PDFs in the appropriate folder and re-run ``.\Update-Index.ps1``")
+[void]$lines.Add("- To add new documents, place PDFs in the appropriate folder and push to GitHub (Action will run automatically)")
 [void]$lines.Add("- File naming convention: ``{PubNumber} - {Product} - {DocType}.pdf``")
 
 $lines -join "`n" | Out-File -FilePath $indexPath -Encoding utf8 -Force

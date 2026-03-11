@@ -1,0 +1,252 @@
+File: 1769-UM021 - CompactLogix 5370 - User Manual.pdf
+Meta Title: CompactLogix 5370 Controllers User Manual
+---
+File: 5069-IN013 - CompactLogix 5380 - Installation Instructions.pdf
+Meta Title: CompactLogix 5380 Controllers Installation Instructions, 5069-IN013K-EN-P
+---
+File: 5069-UM001 - CompactLogix 5380 - User Manual.pdf
+Meta Title: CompactLogix 5380 and Compact GuardLogix 5380 Controllers
+---
+File: 1756-IN043 - ControlLogix 5580 - Installation Instructions.pdf
+Meta Title: ControlLogix 5580 Controllers Installation Instructions
+---
+File: 1756-UM543 - ControlLogix 5580 GuardLogix 5580 - User Manual.pdf
+Meta Title: ControlLogix 5580 and GuardLogix 5580 Controllers
+---
+File: 1756-IN062 - ControlLogix Digital IO - Installation Instructions.pdf
+Meta Title: ControlLogix DC Digital I/O Modules Installation Instructions
+---
+File: 1756-UM009 - ControlLogix Analog IO - User Manual.pdf
+Meta Title: ControlLogix Analog I/O Modules User Manual
+---
+File: 1756-UM058 - ControlLogix Digital IO Modules - User Manual.pdf
+Meta Title: ControlLogix Digital I/O Modules User Manual
+---
+File: 2080-UM002 - Micro830 850 870 - User Manual.pdf
+Meta Title: 2080-UM002R-EN-E Micro830, Micro850, and Micro870 Programmable Controllers User Manual
+---
+File: 2080-UM005 - Micro820 - User Manual.pdf
+Meta Title: 2080-UM005H-EN-E Micro820 Programmable Controllers User Manual
+---
+File: 1763-UM001 - MicroLogix 1100 - User Manual.pdf
+Meta Title: 1763-UM001G-EN-P MicroLogix 1100 Programmable Controllers User Manual
+---
+File: 1766-RM001 - MicroLogix 1400 - Instruction Set Reference.pdf
+Meta Title: 1766-RM001J-EN-P MicroLogix 1400 Programmable Controllers Reference Manual
+---
+File: 1766-UM001 - MicroLogix 1400 - User Manual.pdf
+Meta Title: 1766-UM001P-EN-P MicroLogix 1400 Programmable Controllers User Manual
+---
+File: 1756-SG001 - ControlLogix - Selection Guide.pdf
+Meta Title: ControlLogix 5580 and ControlLogix 5570 Systems Selection Guide
+---
+File: 1747-RM001 - SLC 500 Instruction Set - Reference Manual.pdf
+Meta Title: SLC 500 Instruction Set Reference Manual
+---
+File: 1747-UM011 - SLC 500 Modular Hardware - User Manual.pdf
+Meta Title: SLC 500 Modular Hardware Style User Manual
+---
+File: 22C-UM001 - PowerFlex 400 - User Manual.pdf
+Meta Title: 22C-UM001K-EN-E PowerFlex 400 Adjustable Frequency AC Drive for Fan and Pump Applications User Manual
+---
+File: 520-UM001 - PowerFlex 525 - User Manual.pdf
+Meta Title: 520-UM001O-EN-E PowerFlex 520-series Adjustable Frequency AC Drive User Manual
+---
+File: 520-UM002 - PowerFlex 523 - User Manual.pdf
+Meta Title: 520-UM002F-EN-E PowerFlex 527 Adjustable Frequency AC Drive User Manual
+---
+File: 520COM-UM001 - PowerFlex 525 EtherNetIP Adapter - User Manual.pdf
+Meta Title: 520COM-UM001B-EN-E PowerFlex 525 Embedded EtherNet/IP Adapter User Manual
+---
+File: 20A-UM001 - PowerFlex 70 - User Manual.pdf
+Meta Title: PowerFlex 70 Adjustable Frequency AC Drives User Manual
+---
+File: 20B-UM001 - PowerFlex 700 - User Manual.pdf
+Meta Title: PowerFlex 700 AC Drives User Manual – Series A, Frames 0…6
+---
+File: PFLEX-RM001 - PowerFlex 70 700 - Reference Manual.pdf
+Meta Title: PowerFlex 70/700 Adjustable Frequency AC Drives Reference Manual
+---
+File: 750-IN001 - PowerFlex 755 - Installation Instructions.pdf
+Meta Title: Installation Instructions, PowerFlex 750-Series AC Drives
+---
+File: 750-UM004 - PowerFlex 755 Safe Torque Off - User Manual.pdf
+Meta Title: PowerFlex 755 Integarated Safety - Safe Torque Off Option Module User Manual
+---
+File: 750COM-UM001 - PowerFlex 755 EtherNetIP Adapter - User Manual.pdf
+Meta Title: PowerFlex 755Drive Embedded EtherNet/IP Adapter
+---
+File: 2198-IN001 - Kinetix 5500 - Installation Instructions.pdf
+Meta Title: Kinetix 5500 Servo Drives
+---
+File: 2198-UM001 - Kinetix 5500 - User Manual.pdf
+Meta Title: Kinetix 5500 Servo Drives User Manual
+---
+File: 2198-IN016 - Kinetix 5700 - Installation Instructions.pdf
+Meta Title: No Title Metadata
+---
+File: 2198-UM002 - Kinetix 5700 - User Manual.pdf
+Meta Title: Kinetix 5700 Servo Drive User Manual
+---
+File: 1756-IN048 - GuardLogix 5580 - Installation Instructions.pdf
+Meta Title: GuardLogix 5580 Controllers Installation Instructions
+---
+File: 1756-RM012 - GuardLogix 5580 5380 - Safety Reference Manual.pdf
+Meta Title: GuardLogix 5580 and Compact GuardLogix 5580 Controllers Safety Reference Manual, 1756-RM012J-EN-P
+---
+File: 440R-UM001 - MSR Safety Relays - User Manual.pdf
+Meta Title: MSR245 Operating and Programming Instructions
+---
+File: 440L-IN011 - GuardShield Light Curtain - Installation Instructions.pdf
+Meta Title: GuardShield Type 2 Safety Light Curtain Installation Instructions
+---
+File: 1734-UM013 - POINT Guard IO - Safety Modules User Manual.pdf
+Meta Title: POINT Guard I/O Safety Modules User Manual, 1734-UM013R-EN-P
+---
+File: 5094-UM001 - FLEX 5000 Standard Safety IO - User Manual.pdf
+Meta Title: 5094-UM001H-EN-P FLEX 5000 Standard and Safety I/O Modules User Manual
+---
+File: 1794-SG002 - FLEX IO - Selection Guide.pdf
+Meta Title: 1794-SG002I-EN-P FLEX I/O and FLEX I/O-XT Selection Guide
+---
+File: 1794-UM002 - FLEX IO EtherNetIP Adapter - User Manual.pdf
+Meta Title: 1794-6.5.2, FLEX I/O Analog Modules User Manual
+---
+File: 1734-UM001 - POINT IO Digital Analog Modules - User Manual.pdf
+Meta Title: 1734-UM001F-EN-P POINT I/O Digital and Analog Modules and POINTBlock I/O Modules User Manual
+---
+File: 1734-UM018 - POINT IO EtherNetIP Adapter - User Manual.pdf
+Meta Title: 1734-UM018F-EN-E POINT I/O EtherNet/IP Adapter User Manual
+---
+File: 1756-IN050 - 1756 EtherNetIP Comm Modules - Installation.pdf
+Meta Title: 1756 EtherNet/IP Communication Module Installation Instructions
+---
+File: ENET-RM002 - Ethernet Design Considerations - Reference Manual.pdf
+Meta Title: Ethernet Reference Manual, ENET-RM002D-EN-P
+---
+File: ENET-UM001 - EtherNetIP Communication Modules - User Manual.pdf
+Meta Title: EtherNet/IP Network Configuration User Manual
+---
+File: 1783-IN012 - Stratix 5700 - Installation Instructions.pdf
+Meta Title: Stratix 8000 and 8300 Ethernet Managed Switches Installation Instructions
+---
+File: 1783-UM007 - Stratix 5400 5700 Managed Switches - User Manual.pdf
+Meta Title: Stratix Mangaged Switches
+---
+File: PROCES-RM002 - PlantPAx Process Objects - Reference Manual.pdf
+Meta Title: Rockwell Automation Library of Process Objects: Configuration and Usage Reference Manual
+---
+File: PROCES-SG001 - PlantPAx - Selection Guide.pdf
+Meta Title: PlantPAx Distributed Control System Selection Guide
+---
+File: 1756-PM001 - Logix 5000 Common Procedures - Programming Manual.pdf
+Meta Title: Logix 5000 Controllers Common Procedures Programming Manual, 1756-PM001
+---
+File: 1756-PM007 - Logix 5000 Structured Text - Programming Manual.pdf
+Meta Title: Logix 5000 Controllers Structured Text Programming Manual
+---
+File: 1756-PM008 - Logix 5000 Ladder Diagram - Programming Manual.pdf
+Meta Title: Logix 5000 Controllers Ladder Diagram
+---
+File: 1756-PM009 - Logix 5000 Function Block - Programming Manual.pdf
+Meta Title: Logix 5000 Controllers Function Block Diagram (Publication 1756-PM009J-EN-P)
+---
+File: VIEWME-UM004 - FactoryTalk View ME - User Guide.pdf
+Meta Title: FactoryTalk View Machine Edition User's Guide
+---
+File: 2711R-UM001 - PanelView 800 - User Manual.pdf
+Meta Title: 2711R-UM001J-EN-E PanelView 800 HMI Terminals User Manual
+---
+File: 2711P-UM007 - PanelView Plus 7 Standard - User Manual.pdf
+Meta Title: PanelView Plus 7 Standard Terminals User Manual
+---
+File: 2711P-UM008 - PanelView Plus 7 Performance - User Manual.pdf
+Meta Title: PanelView Plus 7 Performance Terminals User Manual
+---
+File: 100-TD013 - 100C 104C Contactors - Product Selection.pdf
+Meta Title: IEC Contactor Specifications Technical Data
+---
+File: 193-UM015 - E300 E200 Electronic Overload Relay - User Manual.pdf
+Meta Title: E300 Electronic Overload Relay User Manual
+---
+File: 150-UM011 - SMC-50 Soft Starter - User Manual.pdf
+Meta Title: SMC-50 Soft Starters User Manual
+---
+File: 800-TD009 - 30mm Push Buttons Indicators - Technical Data.pdf
+Meta Title: 30 mm Push Button Specifications Technical Data
+---
+File: 700-TD552 - Relay Timer Specifications - Technical Data.pdf
+Meta Title: Relay and Timer Specifications
+---
+File: GMC-RM003 - Integrated Motion on EtherNetIP - Reference Manual.pdf
+Meta Title: Kinetix 6000 and Kinetix 6200/6500 Drive Systems Design Guide
+---
+File: 42AF-UM001 - RightSight Photoelectric Sensors - User Manual.pdf
+Meta Title: RightSight Photoelectric Sensors with IO-Link Interface User Manual
+---
+File: PROX-TD001 - Inductive Proximity Sensors - Technical Data.pdf
+Meta Title: Inductive Proximity Sensor Specifications Technical Data
+---
+File: 440G-UM004 - Guardmaster Guard Locking Switch - User Manual.pdf
+Meta Title: Guardmaster Guard Locking Switch User Manual
+---
+File: 836-TD001 - Pressure Controls - Technical Data.pdf
+Meta Title: Condition Sensing Specifications Technical Data
+---
+File: 1492-SG122 - Circuit Protection Selection Guide.pdf
+Meta Title: Miniature Circuit Breakers, Electronic Protection Modules, and Fuse Holders Selection Guide
+---
+File: 1606-PP003 - Switched Mode Power Supplies - Product Profile.pdf
+Meta Title: Bulletin 1606-XLE, _XLP, XLS Switched Mode Power Supplies
+---
+File: 1492-TD015 - Terminal Block Specifications - Technical Data.pdf
+Meta Title: Terminal Blocks Specifications
+---
+File: KNX-SG001 - Kinetix Motion Control - Selection Guide.pdf
+Meta Title: Kinetix Motion Control Selection Guide, publication KNX-SG001K-EN-P
+---
+File: KNX-TD001 - Kinetix Rotary Motion VPL MPL - Technical Data.pdf
+Meta Title: Kinetix Rotary Motion Specifications Technical Data, publication KNX-TD001J-EN-P
+---
+File: VPL-IN001 - Kinetix VPL Servo Motors - Installation Instructions.pdf
+Meta Title: Kinetix VPL Low Inertia Servo Motors with 063…165 mm Frame Size Installation Instructions
+---
+File: IA-SG001 - Integrated Architecture Selection Guide.pdf
+Meta Title: Midrange Architecture System Selection Guide, IA-SG001C-EN-P
+---
+File: MIGRAT-PP003 - PLC5 SLC500 to Logix Migration - Application Guide.pdf
+Meta Title: Smart Manufacturing Meeting the Growing Demand
+---
+File: Banner QS30 DC Photoelectric Sensor - Product Manual.pdf
+Meta Title: QS30 Standard DC Voltage Series Sensor Product Manual
+---
+File: Banner QS30 Universal Voltage Sensor - Product Manual.pdf
+Error reading metadata: Stream has ended unexpectedly
+---
+File: Rockwell ENET-RM003 - CIP Common Object Model Reference.pdf
+Meta Title: Embedded Switch Technology Reference Architectures Reference Manual, ENET-RM003A-EN-P
+---
+File: CNET-UM001 - ControlNet Design Installation Guide.pdf
+Meta Title: ControlNet Network Configuration (Publication CNET-UM001H-EN-P)
+---
+File: DNET-UM004 - DeviceNet Design Installation Guide.pdf
+Meta Title: DeviceNet Network Configuration
+---
+File: ENET-AP005 - EtherNetIP System Configuration Guide.pdf
+Meta Title: EtherNet/IP Embedded Switch Technology Application Guide, ENET-AP005G-EN-P
+---
+File: ENET-TD001 - EtherNetIP Specifications - Technical Data.pdf
+Meta Title: Converged Plantwide Ethernet (CPwE) Design and Implementation Guide
+---
+File: ENET-WP001 - EtherNetIP Industrial Protocol White Paper.pdf
+Meta Title: Microsoft Word - ENET-WP001A-EN-P.doc
+---
+File: Rockwell ENET-WP001 - EtherNetIP Industrial Protocol White Paper.pdf
+Meta Title: Microsoft Word - ENET-WP001A-EN-P.doc
+---
+File: 1756-UM523 - ControlLogix Standard Redundancy System - User Manual.pdf
+Meta Title: 1756-UM523F-EN-P.book
+---
+File: 1756-UM535 - ControlLogix Enhanced Redundancy System - User Manual.pdf
+Meta Title: Redundancy Systems User Manual, 1756-UM015M-EN-P
+---

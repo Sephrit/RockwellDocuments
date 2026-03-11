@@ -4,7 +4,7 @@ Welcome to this reference repository! This collection is meant to serve as a fas
 
 <!-- AUTO-GENERATED-INDEX-START -->
 
-> **84 documents** | **998.7 MB** total | Last updated: **2026-03-11 22:41**
+> **82 documents** | **992.5 MB** total | Last updated: **2026-03-11 17:47**
 >
 > This index is automatically updated via GitHub Actions.
 > You can also run `.\Update-Index.ps1` locally to refresh after adding new documents.
@@ -30,8 +30,8 @@ Welcome to this reference repository! This collection is meant to serve as a fas
 | [Motion Control and Servo Motors](#motion-control-and-servo-motors) | 3 docs |
 | [Migration and Conversion Guides](#migration-and-conversion-guides) | 2 docs |
 | [Banner Engineering](#banner-engineering) | 2 docs |
-| [CIP and EtherNet/IP Protocol](#cip-and-ethernetip-protocol) | 7 docs |
-| [25_Redundancy](#25redundancy) | 2 docs |
+| [CIP and EtherNet/IP Protocol](#cip-and-ethernetip-protocol) | 5 docs |
+| [High Availability and Redundancy](#high-availability-and-redundancy) | 2 docs |
 
 ---
 
@@ -113,7 +113,7 @@ Welcome to this reference repository! This collection is meant to serve as a fas
 |:------------|:---------|-----:|:-------|
 | `520COM-UM001` | PowerFlex 525 EtherNetIP Adapter - User Manual | 8.7 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/02_Drives/PowerFlex_525/520COM-UM001%20-%20PowerFlex%20525%20EtherNetIP%20Adapter%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/02_Drives/PowerFlex_525/520COM-UM001%20-%20PowerFlex%20525%20EtherNetIP%20Adapter%20-%20User%20Manual.pdf?download=true) |
 | `520-UM001` | PowerFlex 525 - User Manual | 32.9 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/02_Drives/PowerFlex_525/520-UM001%20-%20PowerFlex%20525%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/02_Drives/PowerFlex_525/520-UM001%20-%20PowerFlex%20525%20-%20User%20Manual.pdf?download=true) |
-| `520-UM002` | PowerFlex 523 - User Manual | 26.6 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/02_Drives/PowerFlex_525/520-UM002%20-%20PowerFlex%20523%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/02_Drives/PowerFlex_525/520-UM002%20-%20PowerFlex%20523%20-%20User%20Manual.pdf?download=true) |
+| `520-UM002` | PowerFlex 527 - User Manual | 26.6 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/02_Drives/PowerFlex_525/520-UM002%20-%20PowerFlex%20527%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/02_Drives/PowerFlex_525/520-UM002%20-%20PowerFlex%20527%20-%20User%20Manual.pdf?download=true) |
 
 ### PowerFlex 70 700 Legacy
 
@@ -163,7 +163,7 @@ Welcome to this reference repository! This collection is meant to serve as a fas
 |:------------|:---------|-----:|:-------|
 | `1756-IN048` | GuardLogix 5580 - Installation Instructions | 1.8 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/04_Safety/GuardLogix_5580/1756-IN048%20-%20GuardLogix%205580%20-%20Installation%20Instructions.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/04_Safety/GuardLogix_5580/1756-IN048%20-%20GuardLogix%205580%20-%20Installation%20Instructions.pdf?download=true) |
 | `1756-RM012` | GuardLogix 5580 5380 - Safety Reference Manual | 5.9 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/04_Safety/GuardLogix_5580/1756-RM012%20-%20GuardLogix%205580%205380%20-%20Safety%20Reference%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/04_Safety/GuardLogix_5580/1756-RM012%20-%20GuardLogix%205580%205380%20-%20Safety%20Reference%20Manual.pdf?download=true) |
-| `440R-UM001` | MSR Safety Relays - User Manual | 0.2 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/04_Safety/GuardLogix_5580/440R-UM001%20-%20MSR%20Safety%20Relays%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/04_Safety/GuardLogix_5580/440R-UM001%20-%20MSR%20Safety%20Relays%20-%20User%20Manual.pdf?download=true) |
+| `440R-UM001` | MSR245 Safety Relays - User Manual | 0.2 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/04_Safety/GuardLogix_5580/440R-UM001%20-%20MSR245%20Safety%20Relays%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/04_Safety/GuardLogix_5580/440R-UM001%20-%20MSR245%20Safety%20Relays%20-%20User%20Manual.pdf?download=true) |
 
 ### Guardmaster Safety Light Curtains
 
@@ -403,20 +403,14 @@ Welcome to this reference repository! This collection is meant to serve as a fas
 
 | Publication | Document | Size | Action |
 |:------------|:---------|-----:|:-------|
-| `Banner QS30 DC Photoelectric Sensor` | Product Manual | 1.9 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/17_Banner/Sensors/Banner%20QS30%20DC%20Photoelectric%20Sensor%20-%20Product%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/17_Banner/Sensors/Banner%20QS30%20DC%20Photoelectric%20Sensor%20-%20Product%20Manual.pdf?download=true) |
-| `Banner QS30 Universal Voltage Sensor` | Product Manual | 0.1 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/17_Banner/Sensors/Banner%20QS30%20Universal%20Voltage%20Sensor%20-%20Product%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/17_Banner/Sensors/Banner%20QS30%20Universal%20Voltage%20Sensor%20-%20Product%20Manual.pdf?download=true) |
+| `Banner QS30` | DC Photoelectric Sensor - Product Manual | 1.9 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/17_Banner/Sensors/Banner%20QS30%20-%20DC%20Photoelectric%20Sensor%20-%20Product%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/17_Banner/Sensors/Banner%20QS30%20-%20DC%20Photoelectric%20Sensor%20-%20Product%20Manual.pdf?download=true) |
+| `Banner QS30` | Universal Voltage Sensor - Product Manual | 0.1 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/17_Banner/Sensors/Banner%20QS30%20-%20Universal%20Voltage%20Sensor%20-%20Product%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/17_Banner/Sensors/Banner%20QS30%20-%20Universal%20Voltage%20Sensor%20-%20Product%20Manual.pdf?download=true) |
 
 ---
 
 ## CIP and EtherNet/IP Protocol
 
-*7 documents - 39.8 MB*
-
-### Object Reference
-
-| Publication | Document | Size | Action |
-|:------------|:---------|-----:|:-------|
-| `Rockwell ENET-RM003` | CIP Common Object Model Reference | 5.9 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/24_CIP_EtherNetIP/Object_Reference/Rockwell%20ENET-RM003%20-%20CIP%20Common%20Object%20Model%20Reference.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/24_CIP_EtherNetIP/Object_Reference/Rockwell%20ENET-RM003%20-%20CIP%20Common%20Object%20Model%20Reference.pdf?download=true) |
+*5 documents - 33.6 MB*
 
 ### Protocol Guides
 
@@ -424,14 +418,13 @@ Welcome to this reference repository! This collection is meant to serve as a fas
 |:------------|:---------|-----:|:-------|
 | `CNET-UM001` | ControlNet Design Installation Guide | 4.5 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/24_CIP_EtherNetIP/Protocol_Guides/CNET-UM001%20-%20ControlNet%20Design%20Installation%20Guide.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/24_CIP_EtherNetIP/Protocol_Guides/CNET-UM001%20-%20ControlNet%20Design%20Installation%20Guide.pdf?download=true) |
 | `DNET-UM004` | DeviceNet Design Installation Guide | 9.4 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/24_CIP_EtherNetIP/Protocol_Guides/DNET-UM004%20-%20DeviceNet%20Design%20Installation%20Guide.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/24_CIP_EtherNetIP/Protocol_Guides/DNET-UM004%20-%20DeviceNet%20Design%20Installation%20Guide.pdf?download=true) |
-| `ENET-AP005` | EtherNetIP System Configuration Guide | 0.9 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/24_CIP_EtherNetIP/Protocol_Guides/ENET-AP005%20-%20EtherNetIP%20System%20Configuration%20Guide.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/24_CIP_EtherNetIP/Protocol_Guides/ENET-AP005%20-%20EtherNetIP%20System%20Configuration%20Guide.pdf?download=true) |
-| `ENET-TD001` | EtherNetIP Specifications - Technical Data | 18.5 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/24_CIP_EtherNetIP/Protocol_Guides/ENET-TD001%20-%20EtherNetIP%20Specifications%20-%20Technical%20Data.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/24_CIP_EtherNetIP/Protocol_Guides/ENET-TD001%20-%20EtherNetIP%20Specifications%20-%20Technical%20Data.pdf?download=true) |
+| `ENET-AP005` | EtherNetIP Embedded Switch Technology - Application Guide | 0.9 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/24_CIP_EtherNetIP/Protocol_Guides/ENET-AP005%20-%20EtherNetIP%20Embedded%20Switch%20Technology%20-%20Application%20Guide.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/24_CIP_EtherNetIP/Protocol_Guides/ENET-AP005%20-%20EtherNetIP%20Embedded%20Switch%20Technology%20-%20Application%20Guide.pdf?download=true) |
+| `ENET-TD001` | Converged Plantwide Ethernet CPwE - Design Guide | 18.5 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/24_CIP_EtherNetIP/Protocol_Guides/ENET-TD001%20-%20Converged%20Plantwide%20Ethernet%20CPwE%20-%20Design%20Guide.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/24_CIP_EtherNetIP/Protocol_Guides/ENET-TD001%20-%20Converged%20Plantwide%20Ethernet%20CPwE%20-%20Design%20Guide.pdf?download=true) |
 | `ENET-WP001` | EtherNetIP Industrial Protocol White Paper | 0.3 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/24_CIP_EtherNetIP/Protocol_Guides/ENET-WP001%20-%20EtherNetIP%20Industrial%20Protocol%20White%20Paper.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/24_CIP_EtherNetIP/Protocol_Guides/ENET-WP001%20-%20EtherNetIP%20Industrial%20Protocol%20White%20Paper.pdf?download=true) |
-| `Rockwell ENET-WP001` | EtherNetIP Industrial Protocol White Paper | 0.3 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/24_CIP_EtherNetIP/Protocol_Guides/Rockwell%20ENET-WP001%20-%20EtherNetIP%20Industrial%20Protocol%20White%20Paper.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/24_CIP_EtherNetIP/Protocol_Guides/Rockwell%20ENET-WP001%20-%20EtherNetIP%20Industrial%20Protocol%20White%20Paper.pdf?download=true) |
 
 ---
 
-## 25_Redundancy
+## High Availability and Redundancy
 
 *2 documents - 12.6 MB*
 

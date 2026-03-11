@@ -31,6 +31,7 @@ $categoryNames = @{
     "22_Belden"               = "Belden Industrial Networking"
     "23_Wonderware_AVEVA"     = "Wonderware AVEVA InTouch HMI"
     "24_CIP_EtherNetIP"       = "CIP and EtherNet/IP Protocol"
+    "25_Redundancy"           = "High Availability and Redundancy"
 }
 
 # The base URL for the repository
@@ -142,9 +143,6 @@ foreach ($dir in $topDirs) {
                 
                 # For public repositories, GitHub's native blob viewer successfully renders LFS PDFs with search support
                 $viewUrl = "https://github.com/Sephrit/RockwellDocuments/blob/main/$encodedRelPath"
-                
-                # The raw endpoint natively streams the file to the browser
-                $rawUrl = "https://github.com/Sephrit/RockwellDocuments/raw/main/$encodedRelPath"
                 
                 # Appending ?download=true to the raw endpoint forces a "Save As" dialogue
                 $downloadUrl = "https://github.com/Sephrit/RockwellDocuments/raw/main/$encodedRelPath`?download=true"

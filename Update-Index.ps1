@@ -151,7 +151,7 @@ foreach ($dir in $topDirs) {
                 # Appending ?download=true to the raw endpoint forces a "Save As" dialogue
                 $downloadUrl = "https://github.com/Sephrit/RockwellDocs/raw/main/$encodedRelPath`?download=true"
                 
-                [void]$lines.Add("| ``$pubNum`` | $desc | $fsize | [📄 View]($viewUrl) <br> [⬇️ Download]($downloadUrl) |")
+                [void]$lines.Add("| ``$pubNum`` | $desc | $fsize | [View]($viewUrl) <br> [Download]($downloadUrl) |")
             }
             [void]$lines.Add("")
         }

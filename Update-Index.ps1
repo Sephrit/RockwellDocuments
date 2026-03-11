@@ -33,14 +33,44 @@ $categoryNames = @{
     "24_CIP_EtherNetIP"       = "CIP and EtherNet/IP Protocol"
 }
 
+# The base URL for the repository
+$repoBaseUrl = "https://github.com/Sephrit/RockwellDocs/blob/main"
+
 $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm"
 $allPdfs = Get-ChildItem -Path $root -Recurse -Filter "*.pdf" -File
 $totalCount = $allPdfs.Count
 $totalSizeMB = [math]::Round(($allPdfs | Measure-Object -Property Length -Sum).Sum / 1MB, 1)
 
+$marker = "<!-- AUTO-GENERATED-INDEX-START -->"
+
+$existingContent = ""
+if (Test-Path $indexPath) {
+    $existingContent = Get-Content $indexPath -Raw
+}
+
+$header = ""
+if ($existingContent -and $existingContent -match "(?s)(.*?)$marker") {
+    $header = $matches[1].TrimEnd()
+} else {
+    $header = @"
+# Rockwell Automation Documentation Database
+
+Welcome to this reference repository! This collection is meant to serve as a fast, organized reference for controls engineers working with common and legacy Rockwell/Allen-Bradley platform components, as well as associated partner vendors. 
+
+Feel free to use this space to keep track of frequently referenced documents, specific part numbers, or field notes.
+
+## Quick Reference / Field Notes
+- **Common Part**: [Description]
+- **Key Manual**: [Description]
+
+"@
+}
+
 $lines = [System.Collections.ArrayList]::new()
 
-[void]$lines.Add("# Rockwell Automation Documentation Database")
+[void]$lines.Add($header)
+[void]$lines.Add("")
+[void]$lines.Add($marker)
 [void]$lines.Add("")
 [void]$lines.Add("> **$totalCount documents** | **$totalSizeMB MB** total | Last updated: **$timestamp**")
 [void]$lines.Add(">")
@@ -106,7 +136,12 @@ foreach ($dir in $topDirs) {
                     $desc = $pdf.BaseName
                 }
                 $fsize = "$([math]::Round($pdf.Length/1MB,1)) MB"
-                [void]$lines.Add("| ``$pubNum`` | $desc | $fsize |")
+                
+                # Create relative path and convert to GitHub blob URL
+                $relPath = $pdf.FullName.Substring($root.Length).TrimStart('\')
+                $githubUrl = "$repoBaseUrl/$(($relPath -replace '\\', '/'))"
+                
+                [void]$lines.Add("| ``$pubNum`` | [$desc]($githubUrl) | $fsize |")
             }
             [void]$lines.Add("")
         }

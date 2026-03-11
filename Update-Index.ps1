@@ -57,11 +57,6 @@ if ($existingContent -and $existingContent -match "(?s)(.*?)$marker") {
 
 Welcome to this reference repository! This collection is meant to serve as a fast, organized reference for controls engineers working with common and legacy Rockwell/Allen-Bradley platform components, as well as associated partner vendors. 
 
-Feel free to use this space to keep track of frequently referenced documents, specific part numbers, or field notes.
-
-## Quick Reference / Field Notes
-- **Common Part**: [Description]
-- **Key Manual**: [Description]
 
 "@
 }
@@ -154,7 +149,7 @@ foreach ($dir in $topDirs) {
                 # Appending ?download=true to the raw endpoint forces a "Save As" dialogue
                 $downloadUrl = "https://github.com/Sephrit/RockwellDocuments/raw/main/$encodedRelPath`?download=true"
                 
-                [void]$lines.Add("| ``$pubNum`` | $desc | $fsize | [View]($viewUrl) <br> [Download]($downloadUrl) |")
+                [void]$lines.Add("| ``$pubNum`` | $desc | $fsize | [View]($viewUrl) &nbsp;&nbsp; [Download]($downloadUrl) |")
             }
             [void]$lines.Add("")
         }

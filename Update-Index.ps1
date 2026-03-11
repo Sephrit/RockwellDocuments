@@ -139,7 +139,13 @@ foreach ($dir in $topDirs) {
                 
                 # Create relative path and convert to GitHub blob URL
                 $relPath = $pdf.FullName.Substring($root.Length).TrimStart('\')
-                $githubUrl = "$repoBaseUrl/$(($relPath -replace '\\', '/'))"
+                
+                # Split the path into segments, URI escape each segment, and join back with '/'
+                $pathSegments = $relPath.Split('\')
+                $encodedSegments = $pathSegments | ForEach-Object { [System.Uri]::EscapeDataString($_) }
+                $encodedRelPath = $encodedSegments -join '/'
+                
+                $githubUrl = "$repoBaseUrl/$encodedRelPath`?raw=true"
                 
                 [void]$lines.Add("| ``$pubNum`` | [$desc]($githubUrl) | $fsize |")
             }

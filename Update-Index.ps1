@@ -120,8 +120,8 @@ foreach ($dir in $topDirs) {
             $subName = $sub.Name -replace '_', ' '
             [void]$lines.Add("### $subName")
             [void]$lines.Add("")
-            [void]$lines.Add("| Publication | Document | Size |")
-            [void]$lines.Add("|:------------|:---------|-----:|")
+            [void]$lines.Add("| Publication | Document | Size | Action |")
+            [void]$lines.Add("|:------------|:---------|-----:|:-------|")
 
             foreach ($pdf in $subPdfs) {
                 $parts = $pdf.BaseName -split ' - ', 3
@@ -145,9 +145,13 @@ foreach ($dir in $topDirs) {
                 $encodedSegments = $pathSegments | ForEach-Object { [System.Uri]::EscapeDataString($_) }
                 $encodedRelPath = $encodedSegments -join '/'
                 
-                $githubUrl = "https://github.com/Sephrit/RockwellDocs/raw/main/$encodedRelPath"
+                # The raw endpoint natively streams the file to the browser
+                $viewUrl = "https://github.com/Sephrit/RockwellDocs/raw/main/$encodedRelPath"
                 
-                [void]$lines.Add("| ``$pubNum`` | [$desc]($githubUrl) | $fsize |")
+                # Appending ?download=true to the raw endpoint forces a "Save As" dialogue
+                $downloadUrl = "https://github.com/Sephrit/RockwellDocs/raw/main/$encodedRelPath`?download=true"
+                
+                [void]$lines.Add("| ``$pubNum`` | $desc | $fsize | [📄 View]($viewUrl) <br> [⬇️ Download]($downloadUrl) |")
             }
             [void]$lines.Add("")
         }

@@ -145,7 +145,7 @@ foreach ($dir in $topDirs) {
                 $encodedSegments = $pathSegments | ForEach-Object { [System.Uri]::EscapeDataString($_) }
                 $encodedRelPath = $encodedSegments -join '/'
                 
-                $githubUrl = "$repoBaseUrl/$encodedRelPath`?raw=true"
+                $githubUrl = "https://github.com/Sephrit/RockwellDocs/raw/main/$encodedRelPath"
                 
                 [void]$lines.Add("| ``$pubNum`` | [$desc]($githubUrl) | $fsize |")
             }

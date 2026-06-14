@@ -4,10 +4,10 @@ Welcome to this reference repository! This collection is meant to serve as a fas
 
 <!-- AUTO-GENERATED-INDEX-START -->
 
-> **121 documents** | **1297.9 MB** total | Last updated: **2026-06-14 14:40**
+> **121 documents** | **1297.9 MB** total | Last updated: **2026-06-14 19:42**
 >
 > This index is automatically updated via GitHub Actions.
-> You can also run `python3 update_index.py` or `.\Update-Index.ps1` locally after adding documents.
+> You can also run `.\Update-Index.ps1` locally to refresh after adding new documents.
 
 ---
 
@@ -38,7 +38,7 @@ Welcome to this reference repository! This collection is meant to serve as a fas
 
 ## PLCs and Controllers
 
-*22 documents - 286.0 MB*
+*22 documents - 286 MB*
 
 ### CompactLogix 5370
 
@@ -53,9 +53,9 @@ Welcome to this reference repository! This collection is meant to serve as a fas
 
 | Publication | Document | Size | Action |
 |:------------|:---------|-----:|:-------|
-| `5069-IN013` | CompactLogix 5380 - Installation Instructions | 1.0 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/01_PLCs/CompactLogix_5380/5069-IN013%20-%20CompactLogix%205380%20-%20Installation%20Instructions.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/01_PLCs/CompactLogix_5380/5069-IN013%20-%20CompactLogix%205380%20-%20Installation%20Instructions.pdf?download=true) |
+| `5069-IN013` | CompactLogix 5380 - Installation Instructions | 1 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/01_PLCs/CompactLogix_5380/5069-IN013%20-%20CompactLogix%205380%20-%20Installation%20Instructions.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/01_PLCs/CompactLogix_5380/5069-IN013%20-%20CompactLogix%205380%20-%20Installation%20Instructions.pdf?download=true) |
 | `5069-UM001` | CompactLogix 5380 - User Manual | 29.8 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/01_PLCs/CompactLogix_5380/5069-UM001%20-%20CompactLogix%205380%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/01_PLCs/CompactLogix_5380/5069-UM001%20-%20CompactLogix%205380%20-%20User%20Manual.pdf?download=true) |
-| `5069-UM003` | Compact 5000 IO Serial Module - User Manual | 16.0 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/01_PLCs/CompactLogix_5380/5069-UM003%20-%20Compact%205000%20IO%20Serial%20Module%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/01_PLCs/CompactLogix_5380/5069-UM003%20-%20Compact%205000%20IO%20Serial%20Module%20-%20User%20Manual.pdf?download=true) |
+| `5069-UM003` | Compact 5000 IO Serial Module - User Manual | 16 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/01_PLCs/CompactLogix_5380/5069-UM003%20-%20Compact%205000%20IO%20Serial%20Module%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/01_PLCs/CompactLogix_5380/5069-UM003%20-%20Compact%205000%20IO%20Serial%20Module%20-%20User%20Manual.pdf?download=true) |
 | `5069-UM004` | Compact 5000 Digital IO Modules - User Manual | 18.7 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/01_PLCs/CompactLogix_5380/5069-UM004%20-%20Compact%205000%20Digital%20IO%20Modules%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/01_PLCs/CompactLogix_5380/5069-UM004%20-%20Compact%205000%20Digital%20IO%20Modules%20-%20User%20Manual.pdf?download=true) |
 | `5069-UM005` | Compact 5000 Analog IO Modules - User Manual | 13.8 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/01_PLCs/CompactLogix_5380/5069-UM005%20-%20Compact%205000%20Analog%20IO%20Modules%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/01_PLCs/CompactLogix_5380/5069-UM005%20-%20Compact%205000%20Analog%20IO%20Modules%20-%20User%20Manual.pdf?download=true) |
 
@@ -72,13 +72,13 @@ Welcome to this reference repository! This collection is meant to serve as a fas
 |:------------|:---------|-----:|:-------|
 | `1756-IN062` | ControlLogix DC Digital IO - Installation Instructions | 0.8 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/01_PLCs/ControlLogix_IO_Modules/1756-IN062%20-%20ControlLogix%20DC%20Digital%20IO%20-%20Installation%20Instructions.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/01_PLCs/ControlLogix_IO_Modules/1756-IN062%20-%20ControlLogix%20DC%20Digital%20IO%20-%20Installation%20Instructions.pdf?download=true) |
 | `1756-UM009` | ControlLogix Analog IO - User Manual | 14.4 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/01_PLCs/ControlLogix_IO_Modules/1756-UM009%20-%20ControlLogix%20Analog%20IO%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/01_PLCs/ControlLogix_IO_Modules/1756-UM009%20-%20ControlLogix%20Analog%20IO%20-%20User%20Manual.pdf?download=true) |
-| `1756-UM058` | ControlLogix Digital IO Modules - User Manual | 10.0 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/01_PLCs/ControlLogix_IO_Modules/1756-UM058%20-%20ControlLogix%20Digital%20IO%20Modules%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/01_PLCs/ControlLogix_IO_Modules/1756-UM058%20-%20ControlLogix%20Digital%20IO%20Modules%20-%20User%20Manual.pdf?download=true) |
+| `1756-UM058` | ControlLogix Digital IO Modules - User Manual | 10 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/01_PLCs/ControlLogix_IO_Modules/1756-UM058%20-%20ControlLogix%20Digital%20IO%20Modules%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/01_PLCs/ControlLogix_IO_Modules/1756-UM058%20-%20ControlLogix%20Digital%20IO%20Modules%20-%20User%20Manual.pdf?download=true) |
 
 ### Micro800
 
 | Publication | Document | Size | Action |
 |:------------|:---------|-----:|:-------|
-| `2080-UM002` | Micro830 850 870 - User Manual | 25.0 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/01_PLCs/Micro800/2080-UM002%20-%20Micro830%20850%20870%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/01_PLCs/Micro800/2080-UM002%20-%20Micro830%20850%20870%20-%20User%20Manual.pdf?download=true) |
+| `2080-UM002` | Micro830 850 870 - User Manual | 25 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/01_PLCs/Micro800/2080-UM002%20-%20Micro830%20850%20870%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/01_PLCs/Micro800/2080-UM002%20-%20Micro830%20850%20870%20-%20User%20Manual.pdf?download=true) |
 | `2080-UM005` | Micro820 - User Manual | 22.2 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/01_PLCs/Micro800/2080-UM005%20-%20Micro820%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/01_PLCs/Micro800/2080-UM005%20-%20Micro820%20-%20User%20Manual.pdf?download=true) |
 
 ### MicroLogix
@@ -87,7 +87,13 @@ Welcome to this reference repository! This collection is meant to serve as a fas
 |:------------|:---------|-----:|:-------|
 | `1763-UM001` | MicroLogix 1100 - User Manual | 8.1 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/01_PLCs/MicroLogix/1763-UM001%20-%20MicroLogix%201100%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/01_PLCs/MicroLogix/1763-UM001%20-%20MicroLogix%201100%20-%20User%20Manual.pdf?download=true) |
 | `1766-RM001` | MicroLogix 1400 - Instruction Set Reference | 17.9 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/01_PLCs/MicroLogix/1766-RM001%20-%20MicroLogix%201400%20-%20Instruction%20Set%20Reference.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/01_PLCs/MicroLogix/1766-RM001%20-%20MicroLogix%201400%20-%20Instruction%20Set%20Reference.pdf?download=true) |
-| `1766-UM001` | MicroLogix 1400 - User Manual | 16.0 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/01_PLCs/MicroLogix/1766-UM001%20-%20MicroLogix%201400%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/01_PLCs/MicroLogix/1766-UM001%20-%20MicroLogix%201400%20-%20User%20Manual.pdf?download=true) |
+| `1766-UM001` | MicroLogix 1400 - User Manual | 16 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/01_PLCs/MicroLogix/1766-UM001%20-%20MicroLogix%201400%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/01_PLCs/MicroLogix/1766-UM001%20-%20MicroLogix%201400%20-%20User%20Manual.pdf?download=true) |
+
+### Selection Guides
+
+| Publication | Document | Size | Action |
+|:------------|:---------|-----:|:-------|
+| `1756-SG001` | ControlLogix - Selection Guide | 3.7 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/01_PLCs/Selection_Guides/1756-SG001%20-%20ControlLogix%20-%20Selection%20Guide.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/01_PLCs/Selection_Guides/1756-SG001%20-%20ControlLogix%20-%20Selection%20Guide.pdf?download=true) |
 
 ### SLC 500 Legacy
 
@@ -95,12 +101,6 @@ Welcome to this reference repository! This collection is meant to serve as a fas
 |:------------|:---------|-----:|:-------|
 | `1747-RM001` | SLC 500 Instruction Set - Reference Manual | 6.8 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/01_PLCs/SLC_500_Legacy/1747-RM001%20-%20SLC%20500%20Instruction%20Set%20-%20Reference%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/01_PLCs/SLC_500_Legacy/1747-RM001%20-%20SLC%20500%20Instruction%20Set%20-%20Reference%20Manual.pdf?download=true) |
 | `1747-UM011` | SLC 500 Modular Hardware - User Manual | 3.3 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/01_PLCs/SLC_500_Legacy/1747-UM011%20-%20SLC%20500%20Modular%20Hardware%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/01_PLCs/SLC_500_Legacy/1747-UM011%20-%20SLC%20500%20Modular%20Hardware%20-%20User%20Manual.pdf?download=true) |
-
-### Selection Guides
-
-| Publication | Document | Size | Action |
-|:------------|:---------|-----:|:-------|
-| `1756-SG001` | ControlLogix - Selection Guide | 3.7 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/01_PLCs/Selection_Guides/1756-SG001%20-%20ControlLogix%20-%20Selection%20Guide.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/01_PLCs/Selection_Guides/1756-SG001%20-%20ControlLogix%20-%20Selection%20Guide.pdf?download=true) |
 
 ---
 
@@ -118,10 +118,10 @@ Welcome to this reference repository! This collection is meant to serve as a fas
 
 | Publication | Document | Size | Action |
 |:------------|:---------|-----:|:-------|
+| `520COM-UM001` | PowerFlex 525 EtherNetIP Adapter - User Manual | 8.7 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/02_Drives/PowerFlex_525/520COM-UM001%20-%20PowerFlex%20525%20EtherNetIP%20Adapter%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/02_Drives/PowerFlex_525/520COM-UM001%20-%20PowerFlex%20525%20EtherNetIP%20Adapter%20-%20User%20Manual.pdf?download=true) |
 | `520-IN002` | PowerFlex 520-Series Control and Power Module - Installation Instructions | 3.4 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/02_Drives/PowerFlex_525/520-IN002%20-%20PowerFlex%20520-Series%20Control%20and%20Power%20Module%20-%20Installation%20Instructions.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/02_Drives/PowerFlex_525/520-IN002%20-%20PowerFlex%20520-Series%20Control%20and%20Power%20Module%20-%20Installation%20Instructions.pdf?download=true) |
 | `520-UM001` | PowerFlex 525 - User Manual | 32.9 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/02_Drives/PowerFlex_525/520-UM001%20-%20PowerFlex%20525%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/02_Drives/PowerFlex_525/520-UM001%20-%20PowerFlex%20525%20-%20User%20Manual.pdf?download=true) |
 | `520-UM002` | PowerFlex 527 - User Manual | 26.6 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/02_Drives/PowerFlex_525/520-UM002%20-%20PowerFlex%20527%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/02_Drives/PowerFlex_525/520-UM002%20-%20PowerFlex%20527%20-%20User%20Manual.pdf?download=true) |
-| `520COM-UM001` | PowerFlex 525 EtherNetIP Adapter - User Manual | 8.7 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/02_Drives/PowerFlex_525/520COM-UM001%20-%20PowerFlex%20525%20EtherNetIP%20Adapter%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/02_Drives/PowerFlex_525/520COM-UM001%20-%20PowerFlex%20525%20EtherNetIP%20Adapter%20-%20User%20Manual.pdf?download=true) |
 
 ### PowerFlex 70 700 Legacy
 
@@ -135,12 +135,12 @@ Welcome to this reference repository! This collection is meant to serve as a fas
 
 | Publication | Document | Size | Action |
 |:------------|:---------|-----:|:-------|
+| `750COM-UM001` | PowerFlex 755 EtherNetIP Adapter - User Manual | 9.9 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/02_Drives/PowerFlex_755/750COM-UM001%20-%20PowerFlex%20755%20EtherNetIP%20Adapter%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/02_Drives/PowerFlex_755/750COM-UM001%20-%20PowerFlex%20755%20EtherNetIP%20Adapter%20-%20User%20Manual.pdf?download=true) |
 | `750-IN001` | PowerFlex 755 - Installation Instructions | 50.2 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/02_Drives/PowerFlex_755/750-IN001%20-%20PowerFlex%20755%20-%20Installation%20Instructions.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/02_Drives/PowerFlex_755/750-IN001%20-%20PowerFlex%20755%20-%20Installation%20Instructions.pdf?download=true) |
 | `750-PM001` | PowerFlex 750-Series - Programming Manual | 37.5 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/02_Drives/PowerFlex_755/750-PM001%20-%20PowerFlex%20750-Series%20-%20Programming%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/02_Drives/PowerFlex_755/750-PM001%20-%20PowerFlex%20750-Series%20-%20Programming%20Manual.pdf?download=true) |
 | `750-QS001` | PowerFlex 750-Series - Quick Start Guide | 21.6 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/02_Drives/PowerFlex_755/750-QS001%20-%20PowerFlex%20750-Series%20-%20Quick%20Start%20Guide.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/02_Drives/PowerFlex_755/750-QS001%20-%20PowerFlex%20750-Series%20-%20Quick%20Start%20Guide.pdf?download=true) |
 | `750-RM001` | Safe Speed Monitor Option Module - Reference Manual | 9.1 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/02_Drives/PowerFlex_755/750-RM001%20-%20Safe%20Speed%20Monitor%20Option%20Module%20-%20Reference%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/02_Drives/PowerFlex_755/750-RM001%20-%20Safe%20Speed%20Monitor%20Option%20Module%20-%20Reference%20Manual.pdf?download=true) |
 | `750-UM004` | PowerFlex 755 Safe Torque Off - User Manual | 8.8 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/02_Drives/PowerFlex_755/750-UM004%20-%20PowerFlex%20755%20Safe%20Torque%20Off%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/02_Drives/PowerFlex_755/750-UM004%20-%20PowerFlex%20755%20Safe%20Torque%20Off%20-%20User%20Manual.pdf?download=true) |
-| `750COM-UM001` | PowerFlex 755 EtherNetIP Adapter - User Manual | 9.9 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/02_Drives/PowerFlex_755/750COM-UM001%20-%20PowerFlex%20755%20EtherNetIP%20Adapter%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/02_Drives/PowerFlex_755/750COM-UM001%20-%20PowerFlex%20755%20EtherNetIP%20Adapter%20-%20User%20Manual.pdf?download=true) |
 
 ---
 
@@ -161,7 +161,7 @@ Welcome to this reference repository! This collection is meant to serve as a fas
 |:------------|:---------|-----:|:-------|
 | `2198-IN009` | Kinetix 5700 DC-bus Power Supply - Installation Instructions | 1.8 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/03_Servos/Kinetix_5700/2198-IN009%20-%20Kinetix%205700%20DC-bus%20Power%20Supply%20-%20Installation%20Instructions.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/03_Servos/Kinetix_5700/2198-IN009%20-%20Kinetix%205700%20DC-bus%20Power%20Supply%20-%20Installation%20Instructions.pdf?download=true) |
 | `2198-IN016` | Kinetix 5700 DC-bus Conditioner Module - Installation Instructions | 3.1 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/03_Servos/Kinetix_5700/2198-IN016%20-%20Kinetix%205700%20DC-bus%20Conditioner%20Module%20-%20Installation%20Instructions.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/03_Servos/Kinetix_5700/2198-IN016%20-%20Kinetix%205700%20DC-bus%20Conditioner%20Module%20-%20Installation%20Instructions.pdf?download=true) |
-| `2198-UM002` | Kinetix 5700 - User Manual | 68.0 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/03_Servos/Kinetix_5700/2198-UM002%20-%20Kinetix%205700%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/03_Servos/Kinetix_5700/2198-UM002%20-%20Kinetix%205700%20-%20User%20Manual.pdf?download=true) |
+| `2198-UM002` | Kinetix 5700 - User Manual | 68 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/03_Servos/Kinetix_5700/2198-UM002%20-%20Kinetix%205700%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/03_Servos/Kinetix_5700/2198-UM002%20-%20Kinetix%205700%20-%20User%20Manual.pdf?download=true) |
 
 ---
 
@@ -180,7 +180,7 @@ Welcome to this reference repository! This collection is meant to serve as a fas
 
 | Publication | Document | Size | Action |
 |:------------|:---------|-----:|:-------|
-| `440L-IN011` | GuardShield Type 2 Safety Light Curtain - Installation Instructions | 2.0 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/04_Safety/Guardmaster_Safety_Light_Curtains/440L-IN011%20-%20GuardShield%20Type%202%20Safety%20Light%20Curtain%20-%20Installation%20Instructions.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/04_Safety/Guardmaster_Safety_Light_Curtains/440L-IN011%20-%20GuardShield%20Type%202%20Safety%20Light%20Curtain%20-%20Installation%20Instructions.pdf?download=true) |
+| `440L-IN011` | GuardShield Type 2 Safety Light Curtain - Installation Instructions | 2 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/04_Safety/Guardmaster_Safety_Light_Curtains/440L-IN011%20-%20GuardShield%20Type%202%20Safety%20Light%20Curtain%20-%20Installation%20Instructions.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/04_Safety/Guardmaster_Safety_Light_Curtains/440L-IN011%20-%20GuardShield%20Type%202%20Safety%20Light%20Curtain%20-%20Installation%20Instructions.pdf?download=true) |
 
 ### POINT Guard IO
 
@@ -199,7 +199,7 @@ Welcome to this reference repository! This collection is meant to serve as a fas
 
 ## I/O Modules
 
-*9 documents - 40.0 MB*
+*9 documents - 40 MB*
 
 ### FLEX 5000
 
@@ -213,7 +213,7 @@ Welcome to this reference repository! This collection is meant to serve as a fas
 |:------------|:---------|-----:|:-------|
 | `1794-IN082` | FLEX IO EtherNetIP Adapters - Installation Instructions | 1.3 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/05_IO_Modules/FLEX_IO_1794/1794-IN082%20-%20FLEX%20IO%20EtherNetIP%20Adapters%20-%20Installation%20Instructions.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/05_IO_Modules/FLEX_IO_1794/1794-IN082%20-%20FLEX%20IO%20EtherNetIP%20Adapters%20-%20Installation%20Instructions.pdf?download=true) |
 | `1794-SG002` | FLEX IO - Selection Guide | 4.2 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/05_IO_Modules/FLEX_IO_1794/1794-SG002%20-%20FLEX%20IO%20-%20Selection%20Guide.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/05_IO_Modules/FLEX_IO_1794/1794-SG002%20-%20FLEX%20IO%20-%20Selection%20Guide.pdf?download=true) |
-| `1794-UM002` | FLEX IO Analog Modules - User Manual | 1.0 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/05_IO_Modules/FLEX_IO_1794/1794-UM002%20-%20FLEX%20IO%20Analog%20Modules%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/05_IO_Modules/FLEX_IO_1794/1794-UM002%20-%20FLEX%20IO%20Analog%20Modules%20-%20User%20Manual.pdf?download=true) |
+| `1794-UM002` | FLEX IO Analog Modules - User Manual | 1 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/05_IO_Modules/FLEX_IO_1794/1794-UM002%20-%20FLEX%20IO%20Analog%20Modules%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/05_IO_Modules/FLEX_IO_1794/1794-UM002%20-%20FLEX%20IO%20Analog%20Modules%20-%20User%20Manual.pdf?download=true) |
 
 ### POINT IO 1734
 
@@ -222,7 +222,7 @@ Welcome to this reference repository! This collection is meant to serve as a fas
 | `1734-IN013` | POINT IO Wiring Base Assembly - Installation Instructions | 0.4 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/05_IO_Modules/POINT_IO_1734/1734-IN013%20-%20POINT%20IO%20Wiring%20Base%20Assembly%20-%20Installation%20Instructions.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/05_IO_Modules/POINT_IO_1734/1734-IN013%20-%20POINT%20IO%20Wiring%20Base%20Assembly%20-%20Installation%20Instructions.pdf?download=true) |
 | `1734-IN027` | POINT IO Analog Input Modules - Installation Instructions | 1.3 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/05_IO_Modules/POINT_IO_1734/1734-IN027%20-%20POINT%20IO%20Analog%20Input%20Modules%20-%20Installation%20Instructions.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/05_IO_Modules/POINT_IO_1734/1734-IN027%20-%20POINT%20IO%20Analog%20Input%20Modules%20-%20Installation%20Instructions.pdf?download=true) |
 | `1734-SG001` | POINT IO Modules - Selection Guide | 4.2 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/05_IO_Modules/POINT_IO_1734/1734-SG001%20-%20POINT%20IO%20Modules%20-%20Selection%20Guide.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/05_IO_Modules/POINT_IO_1734/1734-SG001%20-%20POINT%20IO%20Modules%20-%20Selection%20Guide.pdf?download=true) |
-| `1734-UM001` | POINT IO Digital Analog Modules - User Manual | 6.0 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/05_IO_Modules/POINT_IO_1734/1734-UM001%20-%20POINT%20IO%20Digital%20Analog%20Modules%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/05_IO_Modules/POINT_IO_1734/1734-UM001%20-%20POINT%20IO%20Digital%20Analog%20Modules%20-%20User%20Manual.pdf?download=true) |
+| `1734-UM001` | POINT IO Digital Analog Modules - User Manual | 6 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/05_IO_Modules/POINT_IO_1734/1734-UM001%20-%20POINT%20IO%20Digital%20Analog%20Modules%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/05_IO_Modules/POINT_IO_1734/1734-UM001%20-%20POINT%20IO%20Digital%20Analog%20Modules%20-%20User%20Manual.pdf?download=true) |
 | `1734-UM018` | POINT IO EtherNetIP Adapter - User Manual | 5.7 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/05_IO_Modules/POINT_IO_1734/1734-UM018%20-%20POINT%20IO%20EtherNetIP%20Adapter%20-%20User%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/05_IO_Modules/POINT_IO_1734/1734-UM018%20-%20POINT%20IO%20EtherNetIP%20Adapter%20-%20User%20Manual.pdf?download=true) |
 
 ---
@@ -243,7 +243,7 @@ Welcome to this reference repository! This collection is meant to serve as a fas
 
 | Publication | Document | Size | Action |
 |:------------|:---------|-----:|:-------|
-| `1783-IN012` | Stratix 8000 8300 - Installation Instructions | 2.0 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/06_Networking/Stratix_Switches/1783-IN012%20-%20Stratix%208000%208300%20-%20Installation%20Instructions.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/06_Networking/Stratix_Switches/1783-IN012%20-%20Stratix%208000%208300%20-%20Installation%20Instructions.pdf?download=true) |
+| `1783-IN012` | Stratix 8000 8300 - Installation Instructions | 2 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/06_Networking/Stratix_Switches/1783-IN012%20-%20Stratix%208000%208300%20-%20Installation%20Instructions.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/06_Networking/Stratix_Switches/1783-IN012%20-%20Stratix%208000%208300%20-%20Installation%20Instructions.pdf?download=true) |
 | `1783-IN014` | Stratix 5400 - Installation Instructions | 2.3 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/06_Networking/Stratix_Switches/1783-IN014%20-%20Stratix%205400%20-%20Installation%20Instructions.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/06_Networking/Stratix_Switches/1783-IN014%20-%20Stratix%205400%20-%20Installation%20Instructions.pdf?download=true) |
 | `1783-IN016` | Stratix 5700 - Installation Instructions | 2.5 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/06_Networking/Stratix_Switches/1783-IN016%20-%20Stratix%205700%20-%20Installation%20Instructions.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/06_Networking/Stratix_Switches/1783-IN016%20-%20Stratix%205700%20-%20Installation%20Instructions.pdf?download=true) |
 | `1783-IN020` | Stratix 4300 Remote Access Routers - Installation Instructions | 1.9 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/06_Networking/Stratix_Switches/1783-IN020%20-%20Stratix%204300%20Remote%20Access%20Routers%20-%20Installation%20Instructions.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/06_Networking/Stratix_Switches/1783-IN020%20-%20Stratix%204300%20Remote%20Access%20Routers%20-%20Installation%20Instructions.pdf?download=true) |
@@ -267,7 +267,7 @@ Welcome to this reference repository! This collection is meant to serve as a fas
 | Publication | Document | Size | Action |
 |:------------|:---------|-----:|:-------|
 | `PROCES-RM002` | PlantPAx Process Objects - Reference Manual | 5.2 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/07_Software/PlantPAx/PROCES-RM002%20-%20PlantPAx%20Process%20Objects%20-%20Reference%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/07_Software/PlantPAx/PROCES-RM002%20-%20PlantPAx%20Process%20Objects%20-%20Reference%20Manual.pdf?download=true) |
-| `PROCES-SG001` | PlantPAx - Selection Guide | 2.0 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/07_Software/PlantPAx/PROCES-SG001%20-%20PlantPAx%20-%20Selection%20Guide.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/07_Software/PlantPAx/PROCES-SG001%20-%20PlantPAx%20-%20Selection%20Guide.pdf?download=true) |
+| `PROCES-SG001` | PlantPAx - Selection Guide | 2 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/07_Software/PlantPAx/PROCES-SG001%20-%20PlantPAx%20-%20Selection%20Guide.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/07_Software/PlantPAx/PROCES-SG001%20-%20PlantPAx%20-%20Selection%20Guide.pdf?download=true) |
 
 ### Studio 5000
 
@@ -276,17 +276,17 @@ Welcome to this reference repository! This collection is meant to serve as a fas
 | `1756-PM001` | Logix 5000 Common Procedures - Programming Manual Index | 0.3 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/07_Software/Studio_5000/1756-PM001%20-%20Logix%205000%20Common%20Procedures%20-%20Programming%20Manual%20Index.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/07_Software/Studio_5000/1756-PM001%20-%20Logix%205000%20Common%20Procedures%20-%20Programming%20Manual%20Index.pdf?download=true) |
 | `1756-PM004` | Logix 5000 IO and Tag Data - Programming Manual | 3.8 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/07_Software/Studio_5000/1756-PM004%20-%20Logix%205000%20IO%20and%20Tag%20Data%20-%20Programming%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/07_Software/Studio_5000/1756-PM004%20-%20Logix%205000%20IO%20and%20Tag%20Data%20-%20Programming%20Manual.pdf?download=true) |
 | `1756-PM005` | Logix 5000 Tasks Programs and Routines - Programming Manual | 2.7 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/07_Software/Studio_5000/1756-PM005%20-%20Logix%205000%20Tasks%20Programs%20and%20Routines%20-%20Programming%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/07_Software/Studio_5000/1756-PM005%20-%20Logix%205000%20Tasks%20Programs%20and%20Routines%20-%20Programming%20Manual.pdf?download=true) |
-| `1756-PM006` | Logix 5000 Sequential Function Charts - Programming Manual | 3.0 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/07_Software/Studio_5000/1756-PM006%20-%20Logix%205000%20Sequential%20Function%20Charts%20-%20Programming%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/07_Software/Studio_5000/1756-PM006%20-%20Logix%205000%20Sequential%20Function%20Charts%20-%20Programming%20Manual.pdf?download=true) |
+| `1756-PM006` | Logix 5000 Sequential Function Charts - Programming Manual | 3 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/07_Software/Studio_5000/1756-PM006%20-%20Logix%205000%20Sequential%20Function%20Charts%20-%20Programming%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/07_Software/Studio_5000/1756-PM006%20-%20Logix%205000%20Sequential%20Function%20Charts%20-%20Programming%20Manual.pdf?download=true) |
 | `1756-PM007` | Logix 5000 Structured Text - Programming Manual | 1.8 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/07_Software/Studio_5000/1756-PM007%20-%20Logix%205000%20Structured%20Text%20-%20Programming%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/07_Software/Studio_5000/1756-PM007%20-%20Logix%205000%20Structured%20Text%20-%20Programming%20Manual.pdf?download=true) |
 | `1756-PM008` | Logix 5000 Ladder Diagram - Programming Manual | 0.7 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/07_Software/Studio_5000/1756-PM008%20-%20Logix%205000%20Ladder%20Diagram%20-%20Programming%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/07_Software/Studio_5000/1756-PM008%20-%20Logix%205000%20Ladder%20Diagram%20-%20Programming%20Manual.pdf?download=true) |
 | `1756-PM009` | Logix 5000 Function Block - Programming Manual | 1.8 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/07_Software/Studio_5000/1756-PM009%20-%20Logix%205000%20Function%20Block%20-%20Programming%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/07_Software/Studio_5000/1756-PM009%20-%20Logix%205000%20Function%20Block%20-%20Programming%20Manual.pdf?download=true) |
 | `1756-PM010` | Logix 5000 Add-On Instructions - Programming Manual | 4.2 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/07_Software/Studio_5000/1756-PM010%20-%20Logix%205000%20Add-On%20Instructions%20-%20Programming%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/07_Software/Studio_5000/1756-PM010%20-%20Logix%205000%20Add-On%20Instructions%20-%20Programming%20Manual.pdf?download=true) |
 | `1756-PM011` | Logix 5000 Produced and Consumed Tags - Programming Manual | 2.7 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/07_Software/Studio_5000/1756-PM011%20-%20Logix%205000%20Produced%20and%20Consumed%20Tags%20-%20Programming%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/07_Software/Studio_5000/1756-PM011%20-%20Logix%205000%20Produced%20and%20Consumed%20Tags%20-%20Programming%20Manual.pdf?download=true) |
-| `1756-PM012` | Logix 5000 Controller Messages - Programming Manual | 2.0 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/07_Software/Studio_5000/1756-PM012%20-%20Logix%205000%20Controller%20Messages%20-%20Programming%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/07_Software/Studio_5000/1756-PM012%20-%20Logix%205000%20Controller%20Messages%20-%20Programming%20Manual.pdf?download=true) |
-| `1756-PM013` | Logix 5000 ASCII Strings - Programming Manual | 2.0 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/07_Software/Studio_5000/1756-PM013%20-%20Logix%205000%20ASCII%20Strings%20-%20Programming%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/07_Software/Studio_5000/1756-PM013%20-%20Logix%205000%20ASCII%20Strings%20-%20Programming%20Manual.pdf?download=true) |
+| `1756-PM012` | Logix 5000 Controller Messages - Programming Manual | 2 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/07_Software/Studio_5000/1756-PM012%20-%20Logix%205000%20Controller%20Messages%20-%20Programming%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/07_Software/Studio_5000/1756-PM012%20-%20Logix%205000%20Controller%20Messages%20-%20Programming%20Manual.pdf?download=true) |
+| `1756-PM013` | Logix 5000 ASCII Strings - Programming Manual | 2 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/07_Software/Studio_5000/1756-PM013%20-%20Logix%205000%20ASCII%20Strings%20-%20Programming%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/07_Software/Studio_5000/1756-PM013%20-%20Logix%205000%20ASCII%20Strings%20-%20Programming%20Manual.pdf?download=true) |
 | `1756-PM014` | Logix 5000 Major Minor and IO Faults - Programming Manual | 1.9 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/07_Software/Studio_5000/1756-PM014%20-%20Logix%205000%20Major%20Minor%20and%20IO%20Faults%20-%20Programming%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/07_Software/Studio_5000/1756-PM014%20-%20Logix%205000%20Major%20Minor%20and%20IO%20Faults%20-%20Programming%20Manual.pdf?download=true) |
 | `1756-PM015` | Logix 5000 Information and Status - Programming Manual | 2.5 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/07_Software/Studio_5000/1756-PM015%20-%20Logix%205000%20Information%20and%20Status%20-%20Programming%20Manual.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/07_Software/Studio_5000/1756-PM015%20-%20Logix%205000%20Information%20and%20Status%20-%20Programming%20Manual.pdf?download=true) |
-| `VIEWME-UM004` | FactoryTalk View ME - User Guide | 12.0 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/07_Software/Studio_5000/VIEWME-UM004%20-%20FactoryTalk%20View%20ME%20-%20User%20Guide.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/07_Software/Studio_5000/VIEWME-UM004%20-%20FactoryTalk%20View%20ME%20-%20User%20Guide.pdf?download=true) |
+| `VIEWME-UM004` | FactoryTalk View ME - User Guide | 12 MB | [View](https://github.com/Sephrit/RockwellDocuments/blob/main/07_Software/Studio_5000/VIEWME-UM004%20-%20FactoryTalk%20View%20ME%20-%20User%20Guide.pdf) &nbsp;&nbsp; [Download](https://github.com/Sephrit/RockwellDocuments/raw/main/07_Software/Studio_5000/VIEWME-UM004%20-%20FactoryTalk%20View%20ME%20-%20User%20Guide.pdf?download=true) |
 
 ---
 
@@ -491,7 +491,7 @@ Welcome to this reference repository! This collection is meant to serve as a fas
 
 ## High Availability and Redundancy
 
-*3 documents - 23.0 MB*
+*3 documents - 23 MB*
 
 ---
 
@@ -499,7 +499,5 @@ Welcome to this reference repository! This collection is meant to serve as a fas
 
 - All documents sourced from [Rockwell Automation Literature Library](https://literature.rockwellautomation.com)
 - Publication numbers follow Rockwell standard format: `{Bulletin}-{Type}{Sequence}`
-- After cloning, run `git lfs pull` to download PDF content (files are stored with Git LFS)
 - To add new documents, place PDFs in the appropriate folder and push to GitHub (Action will run automatically)
 - File naming convention: `{PubNumber} - {Product} - {DocType}.pdf`
-- Verify PDFs with `python3 verify_pdfs.py`

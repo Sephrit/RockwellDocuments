@@ -1,0 +1,128 @@
+{
+  "version": 3,
+  "description": "Queue of documentation to add. Daily automation picks the next two pending items by priority.",
+  "nightlyBatchSize": 2,
+  "items": [
+    {
+      "id": "1756-PM002",
+      "publication": "1756-PM002",
+      "title": "Logix 5000 Controllers Designer - Programming Manual",
+      "folder": "07_Software/Studio_5000",
+      "filename": "1756-PM002 - Logix 5000 Designer - Programming Manual.pdf",
+      "downloadUrl": "https://literature.rockwellautomation.com/idc/groups/literature/documents/pm/1756-pm002_-en-p.pdf",
+      "source": "rockwell",
+      "status": "pending",
+      "priority": 1
+    },
+    {
+      "id": "1756-PM003",
+      "publication": "1756-PM003",
+      "title": "Logix 5000 Controllers Instructions - Programming Manual",
+      "folder": "07_Software/Studio_5000",
+      "filename": "1756-PM003 - Logix 5000 Instructions - Programming Manual.pdf",
+      "downloadUrl": "https://literature.rockwellautomation.com/idc/groups/literature/documents/pm/1756-pm003_-en-p.pdf",
+      "source": "rockwell",
+      "status": "pending",
+      "priority": 2
+    },
+    {
+      "id": "5069-UM006",
+      "publication": "5069-UM006",
+      "title": "Compact 5000 High-speed Counter Module - User Manual",
+      "folder": "01_PLCs/CompactLogix_5380",
+      "filename": "5069-UM006 - Compact 5000 High-speed Counter Module - User Manual.pdf",
+      "downloadUrl": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/5069-um006_-en-p.pdf",
+      "source": "rockwell",
+      "status": "pending",
+      "priority": 3
+    },
+    {
+      "id": "2198-RD006",
+      "publication": "2198-RD006",
+      "title": "Kinetix 5300 Fault Codes - Reference Data",
+      "folder": "03_Servos/Kinetix_5500",
+      "filename": "2198-RD006 - Kinetix 5300 Fault Codes - Reference Data.pdf",
+      "downloadUrl": "https://literature.rockwellautomation.com/idc/groups/literature/documents/rd/2198-rd006_-en-p.pdf",
+      "source": "rockwell",
+      "status": "pending",
+      "priority": 4
+    },
+    {
+      "id": "1783-IN024",
+      "publication": "1783-IN024",
+      "title": "Stratix 4100 ETAP - Installation Instructions",
+      "folder": "06_Networking/Stratix_Switches",
+      "filename": "1783-IN024 - Stratix 4100 ETAP - Installation Instructions.pdf",
+      "downloadUrl": "https://literature.rockwellautomation.com/idc/groups/literature/documents/in/1783-in024_-en-p.pdf",
+      "source": "rockwell",
+      "status": "pending",
+      "priority": 5
+    },
+    {
+      "id": "cognex-is2800",
+      "publication": "IS2800",
+      "title": "Cognex In-Sight 2800 - Reference Manual",
+      "folder": "15_Cognex/InSight_Vision",
+      "filename": "IS2800 - In-Sight 2800 - Reference Manual.pdf",
+      "downloadUrl": "https://support.cognex.com/docs/is2d_2211/EN/IS2800_Reference_Manual.pdf",
+      "source": "cognex",
+      "notes": "Rate-limited; retry with delay or download manually from Cognex support portal",
+      "status": "pending",
+      "priority": 6
+    },
+    {
+      "id": "cognex-is3800",
+      "publication": "IS3800",
+      "title": "Cognex In-Sight 3800 - Reference Manual",
+      "folder": "15_Cognex/InSight_Vision",
+      "filename": "IS3800 - In-Sight 3800 - Reference Manual.pdf",
+      "downloadUrl": null,
+      "source": "cognex",
+      "notes": "Download from support.cognex.com In-Sight 3800 documentation page",
+      "status": "pending",
+      "priority": 7
+    },
+    {
+      "id": "festo-cpx-e",
+      "publication": "CPX-E",
+      "title": "Festo CPX-E Automation System - Operating Instructions",
+      "folder": "18_Festo/CPX-E",
+      "filename": "660714 - CPX-E Automation System - Operating Instructions.pdf",
+      "downloadUrl": null,
+      "source": "festo",
+      "notes": "Download from festo.com/sp — bot protection blocks direct curl",
+      "status": "pending",
+      "priority": 8
+    },
+    {
+      "id": "keyence-iv3",
+      "publication": "IV3",
+      "title": "Keyence IV3 Vision Sensor - User Manual",
+      "folder": "19_Keyence/Vision_Sensors",
+      "filename": "IV3 - Vision Sensor - User Manual.pdf",
+      "downloadUrl": null,
+      "source": "keyence",
+      "notes": "Download from keyence.com IV3 downloads page",
+      "status": "pending",
+      "priority": 9
+    },
+    {
+      "id": "endress-promag",
+      "publication": "BA01001D",
+      "title": "Endress+Hauser Promag 53 - Operating Instructions",
+      "folder": "20_Endress_Hauser/Flow",
+      "filename": "BA01001D - Promag 53 - Operating Instructions.pdf",
+      "downloadUrl": null,
+      "source": "endress",
+      "notes": "Download from endress.com product page for Promag 53",
+      "status": "pending",
+      "priority": 10
+    }
+  ],
+  "completed": [
+    "1756-PM004", "1756-PM005", "1756-PM006", "1756-PM010", "1756-PM011", "1756-PM012",
+    "1756-PM013", "1756-PM014", "1756-PM015", "5069-UM003", "1769-UM005", "750-RM001",
+    "1783-IN020", "2711P-IN001", "1734-IN027", "122452", "179480", "IM0063757",
+    "IM0098184", "IM0074335"
+  ]
+}

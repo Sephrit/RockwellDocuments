@@ -114,12 +114,17 @@ def main() -> None:
         size_mb = round(sum(p.stat().st_size for p in cat_pdfs) / (1024 * 1024), 1)
         lines.extend([f"## {name}", "", f"*{len(cat_pdfs)} documents - {size_mb} MB*", ""])
 
-        subdirs = sorted({p.parent for p in cat_pdfs if p.parent != d})
+        # Group by the FULL sub-path under the category so nested layers show.
+        # PDFs directly in the category root render under a "General" heading.
+        subdirs = sorted({p.parent for p in cat_pdfs}, key=lambda x: x.as_posix())
         for sub in subdirs:
             sub_pdfs = sorted(p for p in cat_pdfs if p.parent == sub)
             if not sub_pdfs:
                 continue
-            sub_name = sub.name.replace("_", " ")
+            if sub == d:
+                sub_name = "General"
+            else:
+                sub_name = " / ".join(part.replace("_", " ") for part in sub.relative_to(d).parts)
             lines.extend([
                 f"### {sub_name}",
                 "",

@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-18 14:16",
-  "count": 1092,
-  "total_mb": 6558.3,
+  "generated": "2026-07-18 09:28",
+  "count": 1095,
+  "total_mb": 6566.5,
   "documents": [
     {
       "publication": "1769-IN001",
@@ -11367,6 +11367,17 @@
       "source": "partner"
     },
     {
+      "publication": "CPX-E-EP-OI",
+      "title": "Festo CPX-E-EP EtherNetIP Bus Module - Operating Instructions",
+      "category": "18_Festo",
+      "category_name": "Festo Pneumatics",
+      "subpath": "CPX-E",
+      "filename": "CPX-E-EP-OI - Festo CPX-E-EP EtherNetIP Bus Module - Operating Instructions.pdf",
+      "path": "18_Festo/CPX-E/CPX-E-EP-OI - Festo CPX-E-EP EtherNetIP Bus Module - Operating Instructions.pdf",
+      "size_mb": 0.47,
+      "source": "partner"
+    },
+    {
       "publication": "BA00047D",
       "title": "Proline Promag 53 HART - Operating Instructions",
       "category": "20_Endress_Hauser",
@@ -11980,6 +11991,28 @@
       "filename": "IE3X00-HIG - Cisco Catalyst IE3x00 Rugged Switches - Hardware Installation Guide.pdf",
       "path": "42_Cisco_Industrial/Catalyst_IE/IE3X00-HIG - Cisco Catalyst IE3x00 Rugged Switches - Hardware Installation Guide.pdf",
       "size_mb": 4.37,
+      "source": "rockwell"
+    },
+    {
+      "publication": "DFE13B-UM",
+      "title": "SEW MOVIDRIVE MDX61B DFE13B EtherNetIP Fieldbus Interface - Manual",
+      "category": "43_SEW_Eurodrive",
+      "category_name": "SEW-Eurodrive Drives",
+      "subpath": "EtherNetIP_Integration",
+      "filename": "DFE13B-UM - SEW MOVIDRIVE MDX61B DFE13B EtherNetIP Fieldbus Interface - Manual.pdf",
+      "path": "43_SEW_Eurodrive/EtherNetIP_Integration/DFE13B-UM - SEW MOVIDRIVE MDX61B DFE13B EtherNetIP Fieldbus Interface - Manual.pdf",
+      "size_mb": 1.88,
+      "source": "rockwell"
+    },
+    {
+      "publication": "DFE33B-UM",
+      "title": "SEW MOVITRAC B DFE33B EtherNetIP ModbusTCP Fieldbus Interface - Manual",
+      "category": "43_SEW_Eurodrive",
+      "category_name": "SEW-Eurodrive Drives",
+      "subpath": "EtherNetIP_Integration",
+      "filename": "DFE33B-UM - SEW MOVITRAC B DFE33B EtherNetIP ModbusTCP Fieldbus Interface - Manual.pdf",
+      "path": "43_SEW_Eurodrive/EtherNetIP_Integration/DFE33B-UM - SEW MOVITRAC B DFE33B EtherNetIP ModbusTCP Fieldbus Interface - Manual.pdf",
+      "size_mb": 5.8,
       "source": "rockwell"
     },
     {

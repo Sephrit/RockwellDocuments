@@ -95,8 +95,8 @@
       "filename": "660714 - CPX-E Automation System - Operating Instructions.pdf",
       "downloadUrl": null,
       "source": "festo",
-      "notes": "Download from festo.com/sp — bot protection blocks direct curl",
-      "status": "pending",
+      "notes": "CPX-E-EP OI downloaded via browser; catalog TD still portal-only",
+      "status": "done",
       "priority": 8
     },
     {
@@ -10542,6 +10542,54 @@
       "source": "aruba",
       "status": "done",
       "priority": 951
+    },
+    {
+      "id": "IE3300-DS",
+      "publication": "IE3300-DS",
+      "title": "Cisco Catalyst IE3300 Rugged Series - Datasheet",
+      "folder": "42_Cisco_Industrial/Catalyst_IE",
+      "filename": "IE3300-DS - Cisco Catalyst IE3300 Rugged Series - Datasheet.pdf",
+      "downloadUrl": null,
+      "source": "cisco",
+      "status": "done",
+      "priority": 952,
+      "notes": "Browser download from cisco.com"
+    },
+    {
+      "id": "IE3X00-HIG",
+      "publication": "IE3X00-HIG",
+      "title": "Cisco Catalyst IE3x00 Rugged Switches - Hardware Installation Guide",
+      "folder": "42_Cisco_Industrial/Catalyst_IE",
+      "filename": "IE3X00-HIG - Cisco Catalyst IE3x00 Rugged Switches - Hardware Installation Guide.pdf",
+      "downloadUrl": null,
+      "source": "cisco",
+      "status": "done",
+      "priority": 953,
+      "notes": "Browser download from cisco.com"
+    },
+    {
+      "id": "DFE33B-UM",
+      "publication": "DFE33B-UM",
+      "title": "SEW MOVITRAC B DFE33B EtherNetIP ModbusTCP Fieldbus Interface - Manual",
+      "folder": "43_SEW_Eurodrive/EtherNetIP_Integration",
+      "filename": "DFE33B-UM - SEW MOVITRAC B DFE33B EtherNetIP ModbusTCP Fieldbus Interface - Manual.pdf",
+      "downloadUrl": null,
+      "source": "sew",
+      "status": "done",
+      "priority": 954,
+      "notes": "Official SEW pub via distributor mirror (SEW CDN bot-walled); content verified"
+    },
+    {
+      "id": "DFE13B-UM",
+      "publication": "DFE13B-UM",
+      "title": "SEW MOVIDRIVE MDX61B DFE13B EtherNetIP Fieldbus Interface - Manual",
+      "folder": "43_SEW_Eurodrive/EtherNetIP_Integration",
+      "filename": "DFE13B-UM - SEW MOVIDRIVE MDX61B DFE13B EtherNetIP Fieldbus Interface - Manual.pdf",
+      "downloadUrl": null,
+      "source": "sew",
+      "status": "done",
+      "priority": 955,
+      "notes": "Official SEW pub via distributor mirror; content verified"
     }
   ],
   "completed": [

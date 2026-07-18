@@ -2,7 +2,7 @@
 
 A curated, verified reference library for controls engineers working on Rockwell/Allen-Bradley platforms and the partner hardware that lives alongside them. Every folder is a device family; inside it are all of that device's documents (manuals, install sheets, specs, selection guides) together.
 
-> **1092 documents** | **6.4 GB** | Last updated **2026-07-18 14:15** | New here? Read [00_START_HERE.md](00_START_HERE.md)
+> **1095 documents** | **6.41 GB** | Last updated **2026-07-18 09:28** | New here? Read [00_START_HERE.md](00_START_HERE.md)
 
 ## Find It Fast
 
@@ -50,7 +50,7 @@ A curated, verified reference library for controls engineers working on Rockwell
 | 15 | [Cognex Vision Systems](15_Cognex) | 2 | 10.1 MB |
 | 16 | [SICK Sensors and Safety](16_SICK) | 3 | 36.8 MB |
 | 17 | [Banner Engineering](17_Banner) | 6 | 25.3 MB |
-| 18 | [Festo Pneumatics](18_Festo) | 1 | 1.0 MB |
+| 18 | [Festo Pneumatics](18_Festo) | 2 | 1.5 MB |
 | 20 | [Endress+Hauser Process Instruments](20_Endress_Hauser) | 3 | 14.7 MB |
 | 21 | [nVent HOFFMAN Enclosures and Cooling](21_nVent_Hoffman) | 4 | 22.8 MB |
 | 24 | [CIP and EtherNet/IP Protocol](24_CIP_EtherNetIP) | 11 | 54.2 MB |
@@ -60,6 +60,7 @@ A curated, verified reference library for controls engineers working on Rockwell
 | 40 | [Aruba HPE Networking](40_Aruba_HPE) | 2 | 3.5 MB |
 | 41 | [Moxa Industrial Networking](41_Moxa) | 6 | 28.9 MB |
 | 42 | [Cisco Industrial (Catalyst IE)](42_Cisco_Industrial) | 2 | 5.7 MB |
+| 43 | [SEW-Eurodrive Drives](43_SEW_Eurodrive) | 2 | 7.7 MB |
 | 44 | [HMS Ewon Remote Access](44_HMS_Ewon) | 1 | 3.6 MB |
 | 45 | [Kepware OPC Connectivity](45_Kepware_OPC) | 1 | 4.2 MB |
 | 46 | [Hardy Process Weighing](46_Hardy_Weighing) | 1 | 1.1 MB |

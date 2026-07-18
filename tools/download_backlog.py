@@ -27,7 +27,7 @@ import urllib.request
 import urllib.error
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 BACKLOG = ROOT / "component_backlog.json"
 UA = "Mozilla/5.0 (compatible; RockwellDocsBot/1.0; +local-archive)"
 MIN_BYTES = 10 * 1024

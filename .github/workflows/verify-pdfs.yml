@@ -1,17 +1,11 @@
 name: Verify PDFs
 
+# Manual-only: this job needs a full LFS checkout (5+ GB), which consumes
+# LFS bandwidth quota every run. Trigger from the Actions tab when you want
+# a full integrity audit; day-to-day verification happens locally
+# (tools/download_backlog.py checks %PDF magic on every download).
 on:
-  push:
-    branches: [main, master]
-    paths:
-      - '**/*.pdf'
-      - 'verify_pdfs.py'
-      - 'requirements.txt'
-      - '.github/workflows/verify-pdfs.yml'
-  pull_request:
-    paths:
-      - '**/*.pdf'
-      - 'verify_pdfs.py'
+  workflow_dispatch:
 
 jobs:
   verify:
@@ -26,7 +20,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r tools/requirements.txt
 
       - name: Verify all PDFs
-        run: python verify_pdfs.py
+        run: python3 tools/verify_pdfs.py

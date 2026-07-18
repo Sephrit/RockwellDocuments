@@ -6,7 +6,7 @@ import sys
 
 from pypdf import PdfReader
 
-directory = os.path.dirname(os.path.abspath(__file__))
+directory = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 pdf_files = sorted(glob.glob(os.path.join(directory, "**", "*.pdf"), recursive=True))
 
 if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":

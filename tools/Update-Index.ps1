@@ -3,7 +3,7 @@
 # Run: .\Update-Index.ps1
 # ============================================================
 
-$root = $PSScriptRoot
+$root = Split-Path -Parent $PSScriptRoot
 $indexPath = Join-Path $root "README.md"
 
 $categoryNames = @{

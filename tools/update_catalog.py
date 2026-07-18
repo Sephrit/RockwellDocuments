@@ -11,16 +11,31 @@ import re
 from datetime import datetime
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 
 # Vendor (partner) top-level folders; everything else is Rockwell literature.
 PARTNER_PREFIX = re.compile(r"^(1[5-9]|2[0-3]|2[6-9]|3\d)_")
 ROCKWELL_TOPS = {"24_CIP_EtherNetIP", "26_Application_Solutions"}
 
 
+def pdf_size(p: Path) -> int:
+    st = p.stat().st_size
+    if st < 512:
+        try:
+            head = p.read_text(errors="ignore")
+            if head.startswith("version https://git-lfs"):
+                for line in head.splitlines():
+                    if line.startswith("size "):
+                        return int(line.split()[1])
+        except Exception:
+            pass
+    return st
+
+
 def category_names() -> dict:
-    ns: dict = {"__file__": str(ROOT / "update_index.py")}
-    src = (ROOT / "update_index.py").read_text(encoding="utf-8").split("MARKER =")[0]
+    here = Path(__file__).resolve().parent / "update_index.py"
+    ns: dict = {"__file__": str(here)}
+    src = here.read_text(encoding="utf-8").split("MARKER =")[0]
     exec(compile(src, "update_index_header", "exec"), ns)
     return ns["CATEGORY_NAMES"]
 
@@ -44,7 +59,7 @@ def main() -> None:
             "subpath": "/".join(rel.parts[1:-1]),
             "filename": p.name,
             "path": rel.as_posix(),
-            "size_mb": round(p.stat().st_size / 1048576, 2),
+            "size_mb": round(pdf_size(p) / 1048576, 2),
             "source": "partner" if partner else "rockwell",
         })
     out = {

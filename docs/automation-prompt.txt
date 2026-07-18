@@ -7,9 +7,9 @@ Follow docs/AUTOMATION.md exactly on every run:
 3. Pick the next two items with status "pending" (lowest priority number first). Skip any whose target PDF already exists.
 4. Download each PDF from downloadUrl, or use the notes field to find the official vendor source if downloadUrl is null.
 5. Save to the target folder using the exact filename from the backlog. Verify each file starts with %PDF and has more than 10 KB.
-6. Run: pip install -r requirements.txt && python3 verify_pdfs.py — if a new PDF fails, delete it, mark the item failed, and try the next pending item instead.
+6. Run: pip install -r requirements.txt && python3 tools/verify_pdfs.py — if a new PDF fails, delete it, mark the item failed, and try the next pending item instead.
 7. Mark successfully added items status "done" with addedAt date. Update the completed list.
-8. Run python3 update_index.py to refresh README.md.
+8. Run python3 tools/update_index.py to refresh README.md.
 9. Commit and push to main with message: Add documentation: {pub1}, {pub2}
 10. Summarize what was added, file paths, sizes, and what is next in the queue.
 

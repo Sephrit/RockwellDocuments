@@ -20,9 +20,9 @@ Download the category ZIPs from the repo's [Releases](https://github.com/Sephrit
 
 **Option B — rebuild from source (always current, free):**
 ```bash
-python3 download_backlog.py            # fetch everything pending
-python3 download_backlog.py --dry-run  # preview first
-python3 update_index.py                # refresh README.md
+python3 tools/download_backlog.py            # fetch everything pending
+python3 tools/download_backlog.py --dry-run  # preview first
+python3 tools/update_index.py                # refresh README.md
 ```
 The downloader verifies every file is a real PDF (`%PDF` header + size) before keeping it.
 

@@ -2,6 +2,14 @@
 
 A scheduled Cursor Automation adds **two components per day** from `component_backlog.json`.
 
+> **Shortcut:** for Rockwell items with a `downloadUrl`, `python3 download_backlog.py`
+> does steps 2–7 below deterministically (no agent needed) — it verifies `%PDF` magic,
+> saves with the exact backlog filename, and flips statuses. Agents are only needed for
+> vendor items with `downloadUrl: null` (bot-protected portals). After any batch, run
+> `python3 update_index.py` and `python3 update_catalog.py`.
+> **Be polite:** keep ≥1s between requests — the literature CDN rate-limits bursts (HTTP 403)
+> for a while if hammered.
+
 ## What the agent does each run
 
 1. **Pull latest** — `git pull` on `main` (ensure Git LFS is available).

@@ -127,3 +127,27 @@ Some CIP docs were downloaded from Rockwell. For ODVA specifications:
 
 - [Belden Industrial Cable Catalog](https://www.belden.com/products/industrial)
 - Download cable selection guides and spec sheets from product pages
+
+---
+
+## Network Switches — browser-download queue (curl blocked, links verified 2026-07-17)
+
+### Aruba / HPE (→ 40_Aruba_HPE\CX_4100i_Industrial\)
+| Document | Link |
+|:---------|:-----|
+| CX 4100i Installation & Getting Started Guide | https://arubanetworking.hpe.com/techdocs/hardware/switches/4100i/igsg/igsg_4100i.pdf |
+| CX 4100i Series Datasheet | https://www.hpe.com/psnow/doc/PSN1013625614TWEN.pdf |
+| AOS-CX configuration guides (per version) | https://arubanetworking.hpe.com/techdocs/AOS-CX/ |
+
+### Cisco Catalyst IE (Stratix hardware siblings → 42_Cisco_Industrial\Catalyst_IE\)
+| Document | Link |
+|:---------|:-----|
+| IE3300 Datasheet | https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-ie3300-rugged-series/catalyst-ie3300-rugged-series-ds.html (Download PDF button) |
+| IE3400 Datasheet | https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-ie3400-rugged-series/catalyst-ie3400-rugged-series-ds.html |
+| IE3x00 Hardware Installation Guide | https://www.cisco.com/c/en/us/td/docs/switches/lan/cisco_ie3X00/Hardware/installation/guide/b_ie3x00_hig.html (PDF export) |
+| IE3300 Config Guides index | https://www.cisco.com/c/en/us/support/switches/catalyst-ie3300-rugged-series/products-installation-and-configuration-guides-list.html |
+
+### Others (Rockwell-compatible EtherNet/IP-friendly)
+- Hirschmann (BOBCAT/RSP): https://www.belden.com → Support → Documentation (login-free per product)
+- Red Lion / N-Tron NT24k: https://www.redlion.net/support/documentation
+- Phoenix Contact FL SWITCH: product pages have direct PDF datasheets (curl-friendly, do in wave-2)

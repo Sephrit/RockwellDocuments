@@ -10,6 +10,8 @@ documentation for controls engineers. Built to be hoarded, searched, and shared.
 - **`component_backlog.json`** — the "recipe": every doc with its verified download URL. This is how the library rebuilds itself.
 - **`download_backlog.py`** — zero-dependency, **no-AI** downloader. Reconstitutes the whole library from Rockwell for free.
 - **`docs/CODE_LIBRARIES_AND_PORTAL_SOURCES.md`** — where to get AOIs, EDS files, HMI faceplates, Optix/Wonderware objects (sign-in portals — can't be auto-fetched).
+- **`docs/OBSOLESCENCE_AND_LIFECYCLE.md`** — modernization/upgrade paths, lifecycle-status & AIM/installed-base tools, release-notes sources, interlocking & remote-racking notes.
+- **`update_catalog.py`** — regenerates `catalog.json` after adding documents.
 
 ## Get the documents
 

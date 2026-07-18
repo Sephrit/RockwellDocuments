@@ -40,6 +40,11 @@ CATEGORY_NAMES = {
     "23_Wonderware_AVEVA": "Wonderware AVEVA InTouch HMI",
     "24_CIP_EtherNetIP": "CIP and EtherNet/IP Protocol",
     "25_Redundancy": "High Availability and Redundancy",
+    "26_Application_Solutions": "Application Solutions and OEM",
+    "28_Phoenix_Contact": "Phoenix Contact",
+    "40_Aruba_HPE": "Aruba HPE Networking",
+    "41_Moxa": "Moxa Industrial Networking",
+    "42_Cisco_Industrial": "Cisco Industrial (Catalyst IE)",
 }
 
 MARKER = "<!-- AUTO-GENERATED-INDEX-START -->"

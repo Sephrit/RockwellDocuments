@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-18 09:13",
-  "count": 1091,
-  "total_mb": 6553.9,
+  "generated": "2026-07-18 14:16",
+  "count": 1092,
+  "total_mb": 6558.3,
   "documents": [
     {
       "publication": "1769-IN001",
@@ -11969,6 +11969,17 @@
       "filename": "IE3300-DS - Cisco Catalyst IE3300 Rugged Series - Datasheet.pdf",
       "path": "42_Cisco_Industrial/Catalyst_IE/IE3300-DS - Cisco Catalyst IE3300 Rugged Series - Datasheet.pdf",
       "size_mb": 1.37,
+      "source": "rockwell"
+    },
+    {
+      "publication": "IE3X00-HIG",
+      "title": "Cisco Catalyst IE3x00 Rugged Switches - Hardware Installation Guide",
+      "category": "42_Cisco_Industrial",
+      "category_name": "Cisco Industrial (Catalyst IE)",
+      "subpath": "Catalyst_IE",
+      "filename": "IE3X00-HIG - Cisco Catalyst IE3x00 Rugged Switches - Hardware Installation Guide.pdf",
+      "path": "42_Cisco_Industrial/Catalyst_IE/IE3X00-HIG - Cisco Catalyst IE3x00 Rugged Switches - Hardware Installation Guide.pdf",
+      "size_mb": 4.37,
       "source": "rockwell"
     },
     {

@@ -2,7 +2,7 @@
 
 A curated, verified reference library for controls engineers working on Rockwell/Allen-Bradley platforms and the partner hardware that lives alongside them. Every folder is a device family; inside it are all of that device's documents (manuals, install sheets, specs, selection guides) together.
 
-> **1091 documents** | **6.4 GB** | Last updated **2026-07-18 09:13** | New here? Read [00_START_HERE.md](00_START_HERE.md)
+> **1092 documents** | **6.4 GB** | Last updated **2026-07-18 14:15** | New here? Read [00_START_HERE.md](00_START_HERE.md)
 
 ## Find It Fast
 
@@ -59,7 +59,7 @@ A curated, verified reference library for controls engineers working on Rockwell
 | 28 | [Phoenix Contact](28_Phoenix_Contact) | 2 | 8.8 MB |
 | 40 | [Aruba HPE Networking](40_Aruba_HPE) | 2 | 3.5 MB |
 | 41 | [Moxa Industrial Networking](41_Moxa) | 6 | 28.9 MB |
-| 42 | [Cisco Industrial (Catalyst IE)](42_Cisco_Industrial) | 1 | 1.4 MB |
+| 42 | [Cisco Industrial (Catalyst IE)](42_Cisco_Industrial) | 2 | 5.7 MB |
 | 44 | [HMS Ewon Remote Access](44_HMS_Ewon) | 1 | 3.6 MB |
 | 45 | [Kepware OPC Connectivity](45_Kepware_OPC) | 1 | 4.2 MB |
 | 46 | [Hardy Process Weighing](46_Hardy_Weighing) | 1 | 1.1 MB |

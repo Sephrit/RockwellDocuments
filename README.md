@@ -2,7 +2,7 @@
 
 A curated, verified reference library for controls engineers working on Rockwell/Allen-Bradley platforms and the partner hardware that lives alongside them. Every folder is a device family; inside it are all of that device's documents (manuals, install sheets, specs, selection guides) together.
 
-> **1095 documents** | **6.41 GB** | Last updated **2026-07-18 14:29** | New here? Read [00_START_HERE.md](00_START_HERE.md)
+> **1095 documents** | **6.41 GB** | Last updated **2026-07-19 19:09** | New here? Read [00_START_HERE.md](00_START_HERE.md)
 
 ## Find It Fast
 
@@ -85,3 +85,12 @@ A curated, verified reference library for controls engineers working on Rockwell
 - Files use Git LFS. Prefer the per-document Download links, or grab category bundles from Releases if published.
 - Naming convention: `{PubNumber} - {Product} - {DocType}.pdf`
 - Add documents via `component_backlog.json` + `python3 tools/download_backlog.py`, then `python3 tools/update_index.py` (see [docs/AUTOMATION.md](docs/AUTOMATION.md)).
+
+## Attribution and Legal
+
+This is an independent reference library. It is not affiliated with, sponsored by, or endorsed by Rockwell Automation or any other vendor whose documentation appears here.
+
+- Every document is redistributed unmodified from the vendor's own public literature portal, where each is offered as a free download. No paywalled, licensed, or confidential material is included.
+- All documents remain the property of their respective publishers. Allen-Bradley, ControlLogix, CompactLogix, GuardLogix, PowerFlex, Kinetix, Stratix, PanelView, and Studio 5000 are trademarks of Rockwell Automation, Inc. All other product names are trademarks of their respective owners.
+- Documentation is provided for engineering reference only. Always verify against the latest revision in the vendor's literature portal before using it for design, installation, or safety work.
+- If you hold rights to any document here and want it removed, open an issue and it will be taken down promptly.

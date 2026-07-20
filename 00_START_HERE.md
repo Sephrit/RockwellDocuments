@@ -1,14 +1,14 @@
 # START HERE
 
 A curated, verified reference library of **public** Rockwell/Allen-Bradley + partner-vendor
-documentation for controls engineers. Built to be hoarded, searched, and shared.
+documentation for controls engineers. Built to be searched, shared, and kept current.
 
 ## What's inside
-- **225+ PDFs** organized into numbered category folders (`01_PLCs` … `25_Redundancy`, plus vendor folders `15`–`23`).
+- **1,000+ PDFs** organized into numbered category folders (`01_PLCs` … `26_Application_Solutions`, plus partner-vendor folders `15`–`46`).
 - **`README.md`** — human-readable index, auto-generated, with View/Download links per doc.
 - **`catalog.json`** — machine-readable index (pub #, title, path, size, category). Query this from scripts/agents.
 - **`component_backlog.json`** — the "recipe": every doc with its verified download URL. This is how the library rebuilds itself.
-- **`download_backlog.py`** — zero-dependency, **no-AI** downloader. Reconstitutes the whole library from Rockwell for free.
+- **`download_backlog.py`** — zero-dependency downloader (plain Python, standard library only). Reconstitutes the whole library from Rockwell for free.
 - **`docs/CODE_LIBRARIES_AND_PORTAL_SOURCES.md`** — where to get AOIs, EDS files, HMI faceplates, Optix/Wonderware objects (sign-in portals — can't be auto-fetched).
 - **`docs/OBSOLESCENCE_AND_LIFECYCLE.md`** — modernization/upgrade paths, lifecycle-status & AIM/installed-base tools, release-notes sources, interlocking & remote-racking notes.
 - **`update_catalog.py`** — regenerates `catalog.json` after adding documents.
@@ -45,11 +45,12 @@ NN_Category/            e.g. 02_Drives
    Or just drop a correctly-named PDF in the right folder and run `update_index.py`.
 
 ## Storage model (for maintainers)
-Git tracks the **text** (backlog, catalog, scripts, index) — small and free. The **PDF hoard**
-is distributed via **GitHub Releases** (category ZIPs), which avoids Git LFS storage/bandwidth
+Git tracks the **text** (backlog, catalog, scripts, index) — small and free. The **documents**
+are distributed via **GitHub Releases** (category ZIPs), which avoids Git LFS storage/bandwidth
 limits. Anyone can also rebuild the PDFs from `download_backlog.py`. See the repo wiki/notes for the
 release-bundling step.
 
 ## Scope
 Everything here is **publicly downloadable** vendor documentation, collected for reference/education.
 Publication numbers and content © their respective manufacturers (Rockwell Automation, SICK, Banner, etc.).
+See the [Attribution and Legal](README.md#attribution-and-legal) section of the README for the full notice.

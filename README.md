@@ -2,7 +2,7 @@
 
 A curated, verified reference library for controls engineers working on Rockwell/Allen-Bradley platforms and the partner hardware that lives alongside them. Every folder is a device family; inside it are all of that device's documents (manuals, install sheets, specs, selection guides) together.
 
-> **1095 documents** | **6.41 GB** | Last updated **2026-07-19 19:09** | New here? Read [00_START_HERE.md](00_START_HERE.md)
+> **1095 documents** | **6.41 GB** | Last updated **2026-07-20 00:10** | New here? Read [00_START_HERE.md](00_START_HERE.md)
 
 ## Find It Fast
 

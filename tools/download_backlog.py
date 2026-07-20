@@ -15,7 +15,7 @@ fixed pattern, so no model is needed. Run it for free, as often as you like.
     python3 download_backlog.py --recheck-failed    # retry previously failed
 
 Partner-vendor items with downloadUrl=null are skipped and reported; those need
-the browser flow in _PRIVATE_TODO.md (bot-protected portals).
+the browser flow in docs/VENDOR_DOWNLOAD_QUEUE.md (bot-protected portals).
 """
 from __future__ import annotations
 
@@ -100,7 +100,7 @@ def main() -> int:
         url = it.get("downloadUrl")
         if not url:
             skipped += 1
-            print(f"  ~ {pub:<14} SKIP (no URL — needs browser, see _PRIVATE_TODO.md)")
+            print(f"  ~ {pub:<14} SKIP (no URL — needs browser, see docs/VENDOR_DOWNLOAD_QUEUE.md)")
             continue
 
         if args.dry_run:

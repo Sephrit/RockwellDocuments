@@ -61,7 +61,7 @@ Optix is a newer platform — **not** in the `-en-p` literature library.
 | Application Server object toolkit, Symbol Factory | 🏢 [AVEVA Docs](https://docs.aveva.com/) |
 | DAServer for Allen-Bradley (DASABCIP) | 🏢 AVEVA Support → search "DASABCIP" |
 
-*(See also `_PRIVATE_TODO.md` for the full AVEVA/partner link set.)*
+*(See also [VENDOR_DOWNLOAD_QUEUE.md](VENDOR_DOWNLOAD_QUEUE.md) for the full AVEVA/partner link set.)*
 
 ---
 
